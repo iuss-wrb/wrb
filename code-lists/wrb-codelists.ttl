@@ -1,0 +1,4479 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix wrb: <http://iuss-wrb.github.io/wrb#> .
+
+wrb: a owl:Ontology ;
+    dcterms:creator <https://orcid.org/0000-0003-1499-618X> ;
+    dcterms:description "Code lists to describe soil properties as defined by the IUSS WRB working group" ;
+    dcterms:rights "This ontology is distributed under Creative Commons Attribution 4.0 License - https://creativecommons.org/licenses/by/4.0" ;
+    dcterms:source <https://wrb.isric.org/files/WRB_fourth_edition_2022-12-18.pdf> ;
+    dcterms:title "WRB code lists" ;
+    foaf:logo <https://wrb.isric.org/images/logo.png> .
+
+<http://iuss-wrb.github.io/wrb#Abundance-of-particles-in-the-sand-and-coarse-silt-fraction-that-consist-of-volcanic-glasses/C> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Abundance-of-particles-in-the-sand-and-coarse-silt-fraction-that-consist-of-volcanic-glasses ;
+    skos:notation "C" ;
+    skos:prefLabel "Common" .
+
+<http://iuss-wrb.github.io/wrb#Abundance-of-particles-in-the-sand-and-coarse-silt-fraction-that-consist-of-volcanic-glasses/F> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Abundance-of-particles-in-the-sand-and-coarse-silt-fraction-that-consist-of-volcanic-glasses ;
+    skos:notation "F" ;
+    skos:prefLabel "Few" .
+
+<http://iuss-wrb.github.io/wrb#Abundance-of-particles-in-the-sand-and-coarse-silt-fraction-that-consist-of-volcanic-glasses/M> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Abundance-of-particles-in-the-sand-and-coarse-silt-fraction-that-consist-of-volcanic-glasses ;
+    skos:notation "M" ;
+    skos:prefLabel "Many" .
+
+<http://iuss-wrb.github.io/wrb#Abundance-of-particles-in-the-sand-and-coarse-silt-fraction-that-consist-of-volcanic-glasses/N> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Abundance-of-particles-in-the-sand-and-coarse-silt-fraction-that-consist-of-volcanic-glasses ;
+    skos:notation "N" ;
+    skos:prefLabel "None" .
+
+<http://iuss-wrb.github.io/wrb#Abundance-of-pores/C> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Abundance-of-pores ;
+    skos:notation "C" ;
+    skos:prefLabel "Common" .
+
+<http://iuss-wrb.github.io/wrb#Abundance-of-pores/F> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Abundance-of-pores ;
+    skos:notation "F" ;
+    skos:prefLabel "Few" .
+
+<http://iuss-wrb.github.io/wrb#Abundance-of-pores/M> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Abundance-of-pores ;
+    skos:notation "M" ;
+    skos:prefLabel "Many" .
+
+<http://iuss-wrb.github.io/wrb#Abundance-of-pores/V> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Abundance-of-pores ;
+    skos:notation "V" ;
+    skos:prefLabel "Very Few" .
+
+<http://iuss-wrb.github.io/wrb#Abundance-of-roots--2-mm/A> a skos:Concept ;
+    skos:definition "> 20",
+        "> 50" ;
+    skos:inScheme wrb:Abundance-of-roots--2-mm ;
+    skos:notation "A" ;
+    skos:prefLabel "Abundant" .
+
+<http://iuss-wrb.github.io/wrb#Abundance-of-roots--2-mm/C> a skos:Concept ;
+    skos:definition "11 – 20",
+        "6 – 10" ;
+    skos:inScheme wrb:Abundance-of-roots--2-mm ;
+    skos:notation "C" ;
+    skos:prefLabel "Common" .
+
+<http://iuss-wrb.github.io/wrb#Abundance-of-roots--2-mm/F> a skos:Concept ;
+    skos:definition "3 – 5",
+        "6 – 10" ;
+    skos:inScheme wrb:Abundance-of-roots--2-mm ;
+    skos:notation "F" ;
+    skos:prefLabel "Few" .
+
+<http://iuss-wrb.github.io/wrb#Abundance-of-roots--2-mm/M> a skos:Concept ;
+    skos:definition "11 – 20",
+        "21 – 50" ;
+    skos:inScheme wrb:Abundance-of-roots--2-mm ;
+    skos:notation "M" ;
+    skos:prefLabel "Many" .
+
+<http://iuss-wrb.github.io/wrb#Abundance-of-roots--2-mm/N> a skos:Concept ;
+    skos:definition "0" ;
+    skos:inScheme wrb:Abundance-of-roots--2-mm ;
+    skos:notation "N" ;
+    skos:prefLabel "None" .
+
+<http://iuss-wrb.github.io/wrb#Abundance-of-roots--2-mm/V> a skos:Concept ;
+    skos:definition "1 – 2",
+        "1 – 5" ;
+    skos:inScheme wrb:Abundance-of-roots--2-mm ;
+    skos:notation "V" ;
+    skos:prefLabel "Very few" .
+
+<http://iuss-wrb.github.io/wrb#Activity-of-erosion/HI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Activity-of-erosion ;
+    skos:notation "HI" ;
+    skos:prefLabel "Active in historical times" .
+
+<http://iuss-wrb.github.io/wrb#Activity-of-erosion/NK> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Activity-of-erosion ;
+    skos:notation "NK" ;
+    skos:prefLabel "Period of activity not known" .
+
+<http://iuss-wrb.github.io/wrb#Activity-of-erosion/PR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Activity-of-erosion ;
+    skos:notation "PR" ;
+    skos:prefLabel "Active at present" .
+
+<http://iuss-wrb.github.io/wrb#Activity-of-erosion/RE> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Activity-of-erosion ;
+    skos:notation "RE" ;
+    skos:prefLabel "Active in recent past" .
+
+<http://iuss-wrb.github.io/wrb#Aggregate-formation-after-addditions-or-after-in-situ-alterations/N> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Aggregate-formation-after-addditions-or-after-in-situ-alterations ;
+    skos:notation "N" ;
+    skos:prefLabel "No new granular structure present" .
+
+<http://iuss-wrb.github.io/wrb#Aggregate-formation-after-addditions-or-after-in-situ-alterations/P> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Aggregate-formation-after-addditions-or-after-in-situ-alterations ;
+    skos:notation "P" ;
+    skos:prefLabel "New granular structure present in places, but in other places the added or mixed materials and the previously present materials lie isolated from each other" .
+
+<http://iuss-wrb.github.io/wrb#Aggregate-formation-after-addditions-or-after-in-situ-alterations/T> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Aggregate-formation-after-addditions-or-after-in-situ-alterations ;
+    skos:notation "T" ;
+    skos:prefLabel "New granular structure present throughout the layer" .
+
+<http://iuss-wrb.github.io/wrb#Aggregate-penetrability-for-root/N> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Aggregate-penetrability-for-root ;
+    skos:notation "N" ;
+    skos:prefLabel "No aggregate with dense outer rim" .
+
+<http://iuss-wrb.github.io/wrb#Aggregate-penetrability-for-root/P> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Aggregate-penetrability-for-root ;
+    skos:notation "P" ;
+    skos:prefLabel "All aggregates with dense outer rim" .
+
+<http://iuss-wrb.github.io/wrb#Aggregate-penetrability-for-root/S> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Aggregate-penetrability-for-root ;
+    skos:notation "S" ;
+    skos:prefLabel "Some aggregates with dense outer rim" .
+
+<http://iuss-wrb.github.io/wrb#Aggregate-size/CO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Aggregate-size ;
+    skos:notation "CO" ;
+    skos:prefLabel "Coarse" .
+
+<http://iuss-wrb.github.io/wrb#Aggregate-size/EC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Aggregate-size ;
+    skos:notation "EC" ;
+    skos:prefLabel "Extremely coarse" .
+
+<http://iuss-wrb.github.io/wrb#Aggregate-size/FI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Aggregate-size ;
+    skos:notation "FI" ;
+    skos:prefLabel "Fine" .
+
+<http://iuss-wrb.github.io/wrb#Aggregate-size/ME> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Aggregate-size ;
+    skos:notation "ME" ;
+    skos:prefLabel "Medium" .
+
+<http://iuss-wrb.github.io/wrb#Aggregate-size/VC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Aggregate-size ;
+    skos:notation "VC" ;
+    skos:prefLabel "Very coarse" .
+
+<http://iuss-wrb.github.io/wrb#Aggregate-size/VF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Aggregate-size ;
+    skos:notation "VF" ;
+    skos:prefLabel "Very fine" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/BA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "BA" ;
+    skos:prefLabel "Bottom ash" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/BC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "BC" ;
+    skos:prefLabel "Black carbon (e.g. charcoal, partly charred particles, soot)" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/BF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "BF" ;
+    skos:prefLabel "Bitumen (asphalt), fragments" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/BR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "BR" ;
+    skos:prefLabel "Bricks, adobes" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/BS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "BS" ;
+    skos:prefLabel "Boiler slag" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/BT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "BT" ;
+    skos:prefLabel "Bitumen (asphalt), continuous" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/CE> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "CE" ;
+    skos:prefLabel "Ceramics" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/CF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "CF" ;
+    skos:prefLabel "Concrete, fragments" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/CL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "CL" ;
+    skos:prefLabel "Cloth, carpet" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/CO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "CO" ;
+    skos:prefLabel "Crude oil" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/CR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "CR" ;
+    skos:prefLabel "Concrete, continuous" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/CU> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "CU" ;
+    skos:prefLabel "Coal combustion byproducts" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/DE> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "DE" ;
+    skos:prefLabel "Debitage (stone tool flakes)" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/DS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "DS" ;
+    skos:prefLabel "Dressed or crushed stones" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/FA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "FA" ;
+    skos:prefLabel "Fly ash" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/GC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "GC" ;
+    skos:prefLabel "Gold coins" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/GF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "GF" ;
+    skos:prefLabel "Geomembrane, fragments" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/GL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "GL" ;
+    skos:prefLabel "Glass" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/GM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "GM" ;
+    skos:prefLabel "Geomembrane, continuous" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/HW> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "HW" ;
+    skos:prefLabel "Household waste (undifferentiated)" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/IW> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "IW" ;
+    skos:prefLabel "Industrial waste" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/LL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "LL" ;
+    skos:prefLabel "Lumps of applied lime" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/ME> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "ME" ;
+    skos:prefLabel "Metal" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/MS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "MS" ;
+    skos:prefLabel "Mine spoil" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "NO" ;
+    skos:prefLabel "None" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/OT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "OT" ;
+    skos:prefLabel "Other" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/OW> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "OW" ;
+    skos:prefLabel "Organic waste" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/PA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "PA" ;
+    skos:prefLabel "Paper, cardboard" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/PB> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "PB" ;
+    skos:prefLabel "Plasterboard" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/PO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "PO" ;
+    skos:prefLabel "Processed oil products" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/PT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "PT" ;
+    skos:prefLabel "Plastic" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/RU> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "RU" ;
+    skos:prefLabel "Rubber (tires etc.)" .
+
+<http://iuss-wrb.github.io/wrb#Artefacts/TW> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artefacts ;
+    skos:notation "TW" ;
+    skos:prefLabel "Treated wood" .
+
+<http://iuss-wrb.github.io/wrb#Artificial-additions-of-natural-material/ML> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artificial-additions-of-natural-material ;
+    skos:notation "ML" ;
+    skos:prefLabel "Mineral, >2 mm" .
+
+<http://iuss-wrb.github.io/wrb#Artificial-additions-of-natural-material/MS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artificial-additions-of-natural-material ;
+    skos:notation "MS" ;
+    skos:prefLabel "Mineral, ≤2 mm" .
+
+<http://iuss-wrb.github.io/wrb#Artificial-additions-of-natural-material/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artificial-additions-of-natural-material ;
+    skos:notation "NO" ;
+    skos:prefLabel "No additions" .
+
+<http://iuss-wrb.github.io/wrb#Artificial-additions-of-natural-material/OR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Artificial-additions-of-natural-material ;
+    skos:notation "OR" ;
+    skos:prefLabel "Organic" .
+
+<http://iuss-wrb.github.io/wrb#Carbonate-contents/EX> a skos:Concept ;
+    skos:definition "> 25 % (by mass)" ;
+    skos:inScheme wrb:Carbonate-contents ;
+    skos:notation "EX" ;
+    skos:prefLabel "Extremely calcareous" .
+
+<http://iuss-wrb.github.io/wrb#Carbonate-contents/MO> a skos:Concept ;
+    skos:definition "> 2 - 10 % (by mass)" ;
+    skos:inScheme wrb:Carbonate-contents ;
+    skos:notation "MO" ;
+    skos:prefLabel "Moderately calcareous" .
+
+<http://iuss-wrb.github.io/wrb#Carbonate-contents/NC> a skos:Concept ;
+    skos:definition "0 % (by mass)" ;
+    skos:inScheme wrb:Carbonate-contents ;
+    skos:notation "NC" ;
+    skos:prefLabel "Non-calcareous" .
+
+<http://iuss-wrb.github.io/wrb#Carbonate-contents/SL> a skos:Concept ;
+    skos:definition "> 0 - 2 % (by mass)" ;
+    skos:inScheme wrb:Carbonate-contents ;
+    skos:notation "SL" ;
+    skos:prefLabel "Slightly calcareous" .
+
+<http://iuss-wrb.github.io/wrb#Carbonate-contents/ST> a skos:Concept ;
+    skos:definition "> 10 - 25 % (by mass)" ;
+    skos:inScheme wrb:Carbonate-contents ;
+    skos:notation "ST" ;
+    skos:prefLabel "Strongly calcareous" .
+
+<http://iuss-wrb.github.io/wrb#Cementation-class-of-oximorphic-features/EWC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementation-class-of-oximorphic-features ;
+    skos:notation "EWC" ;
+    skos:prefLabel "Extremely weakly cemented" .
+
+<http://iuss-wrb.github.io/wrb#Cementation-class-of-oximorphic-features/MOC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementation-class-of-oximorphic-features ;
+    skos:notation "MOC" ;
+    skos:prefLabel "Moderately or more cemented" .
+
+<http://iuss-wrb.github.io/wrb#Cementation-class-of-oximorphic-features/NC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementation-class-of-oximorphic-features ;
+    skos:notation "NC" ;
+    skos:prefLabel "Not cemented" .
+
+<http://iuss-wrb.github.io/wrb#Cementation-class-of-oximorphic-features/VWC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementation-class-of-oximorphic-features ;
+    skos:notation "VWC" ;
+    skos:prefLabel "Very weakly cemented" .
+
+<http://iuss-wrb.github.io/wrb#Cementation-class-of-oximorphic-features/WEC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementation-class-of-oximorphic-features ;
+    skos:notation "WEC" ;
+    skos:prefLabel "Weakly cemented" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-agents/AL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-agents ;
+    skos:notation "AL" ;
+    skos:prefLabel "Al" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-agents/CA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-agents ;
+    skos:notation "CA" ;
+    skos:prefLabel "Carbonates" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-agents/FE> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-agents ;
+    skos:notation "FE" ;
+    skos:prefLabel "Fe oxides" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-agents/GY> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-agents ;
+    skos:notation "GY" ;
+    skos:prefLabel "Gypsum" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-agents/IA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-agents ;
+    skos:notation "IA" ;
+    skos:prefLabel "Ice, < 75% (by volume)" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-agents/IM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-agents ;
+    skos:notation "IM" ;
+    skos:prefLabel "Ice, ≥ 75% (by volume)" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-agents/MN> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-agents ;
+    skos:notation "MN" ;
+    skos:prefLabel "Mn oxides" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-agents/OM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-agents ;
+    skos:notation "OM" ;
+    skos:prefLabel "Organic matter" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-agents/RS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-agents ;
+    skos:notation "RS" ;
+    skos:prefLabel "Readily soluble salts" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-agents/SI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-agents ;
+    skos:notation "SI" ;
+    skos:prefLabel "Silica" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-class/EWC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-class ;
+    skos:notation "EWC" ;
+    skos:prefLabel "Extremely weakly cemented" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-class/EXC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-class ;
+    skos:notation "EXC" ;
+    skos:prefLabel "Extremely strongly cemented" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-class/MOC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-class ;
+    skos:notation "MOC" ;
+    skos:prefLabel "Moderately cemented" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-class/NOC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-class ;
+    skos:notation "NOC" ;
+    skos:prefLabel "Not cemented" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-class/STC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-class ;
+    skos:notation "STC" ;
+    skos:prefLabel "Strongly cemented" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-class/VSC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-class ;
+    skos:notation "VSC" ;
+    skos:prefLabel "Very strongly cemented" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-class/VWC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-class ;
+    skos:notation "VWC" ;
+    skos:prefLabel "Very weakly cemented" .
+
+<http://iuss-wrb.github.io/wrb#Cementing-class/WEC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cementing-class ;
+    skos:notation "WEC" ;
+    skos:prefLabel "Weakly cemented" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/A> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "A" ;
+    skos:prefLabel "Tropical climates" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Af> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Af" ;
+    skos:prefLabel "Tropical rainforest climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Am> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Am" ;
+    skos:prefLabel "Tropical monsoon climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/As> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "As" ;
+    skos:prefLabel "Tropical savanna climate with dry-summer characteristics" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Aw> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Aw" ;
+    skos:prefLabel "Tropical savanna climate with dry-winter characteristics" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/B> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "B" ;
+    skos:prefLabel "Dry climates" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/BSc> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "BSc" ;
+    skos:prefLabel "Cold semi-arid climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/BSh> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "BSh" ;
+    skos:prefLabel "Hot semi-arid climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/BWc> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "BWc" ;
+    skos:prefLabel "Cold arid climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/BWh> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "BWh" ;
+    skos:prefLabel "Hot arid climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/C> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "C" ;
+    skos:prefLabel "Temperate climates" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Cfa> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Cfa" ;
+    skos:prefLabel "Humid subtropical climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Cfb> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Cfb" ;
+    skos:prefLabel "Oceanic climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Cfc> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Cfc" ;
+    skos:prefLabel "Subpolar oceanic climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Csa> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Csa" ;
+    skos:prefLabel "Mediterranean hot summer climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Csb> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Csb" ;
+    skos:prefLabel "Mediterranean warm/cool summer climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Csc> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Csc" ;
+    skos:prefLabel "Mediterranean cold summer climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Cwa> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Cwa" ;
+    skos:prefLabel "Dry-winter humid subtropical climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Cwb> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Cwb" ;
+    skos:prefLabel "Dry-winter subtropical highland climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Cwc> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Cwc" ;
+    skos:prefLabel "Dry-winter subpolar oceanic climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/D> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "D" ;
+    skos:prefLabel "Continental climates" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Dfa> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Dfa" ;
+    skos:prefLabel "Hot-summer humid continental climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Dfb> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Dfb" ;
+    skos:prefLabel "Warm-summer humid continental climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Dfc> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Dfc" ;
+    skos:prefLabel "Subarctic climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Dfd> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Dfd" ;
+    skos:prefLabel "Extremely cold subarctic climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Dsa> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Dsa" ;
+    skos:prefLabel "Mediterranean-influenced hot-summer humid continental climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Dsb> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Dsb" ;
+    skos:prefLabel "Mediterranean-influenced warm-summer humid continental climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Dsc> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Dsc" ;
+    skos:prefLabel "Mediterranean-influenced subarctic climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Dsd> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Dsd" ;
+    skos:prefLabel "Mediterranean-influenced extremely cold subarctic climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Dwa> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Dwa" ;
+    skos:prefLabel "Monsoon-influenced hot-summer humid continental climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Dwb> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Dwb" ;
+    skos:prefLabel "Monsoon-influenced warm-summer humid continental climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Dwc> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Dwc" ;
+    skos:prefLabel "Monsoon-influenced subarctic climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/Dwd> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "Dwd" ;
+    skos:prefLabel "Monsoon-influenced extremely cold subarctic climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/E> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "E" ;
+    skos:prefLabel "Polar and alpine climates" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/EF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "EF" ;
+    skos:prefLabel "Ice cap climate" .
+
+<http://iuss-wrb.github.io/wrb#Climate-according-to-Köppen-1936/ET> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Climate-according-to-Köppen-1936 ;
+    skos:notation "ET" ;
+    skos:prefLabel "Tundra climate" .
+
+<http://iuss-wrb.github.io/wrb#Coarse-surface-fragments/B> a skos:Concept ;
+    skos:definition "> 20 - 60" ;
+    skos:inScheme wrb:Coarse-surface-fragments ;
+    skos:notation "B" ;
+    skos:prefLabel "Boulders" .
+
+<http://iuss-wrb.github.io/wrb#Coarse-surface-fragments/C> a skos:Concept ;
+    skos:definition "> 2 - 6" ;
+    skos:inScheme wrb:Coarse-surface-fragments ;
+    skos:notation "C" ;
+    skos:prefLabel "Coarse gravel" .
+
+<http://iuss-wrb.github.io/wrb#Coarse-surface-fragments/F> a skos:Concept ;
+    skos:definition "> 0.2 - 0.6" ;
+    skos:inScheme wrb:Coarse-surface-fragments ;
+    skos:notation "F" ;
+    skos:prefLabel "Fine gravel" .
+
+<http://iuss-wrb.github.io/wrb#Coarse-surface-fragments/L> a skos:Concept ;
+    skos:definition "> 60" ;
+    skos:inScheme wrb:Coarse-surface-fragments ;
+    skos:notation "L" ;
+    skos:prefLabel "Large boulders" .
+
+<http://iuss-wrb.github.io/wrb#Coarse-surface-fragments/M> a skos:Concept ;
+    skos:definition "> 0.6 - 2" ;
+    skos:inScheme wrb:Coarse-surface-fragments ;
+    skos:notation "M" ;
+    skos:prefLabel "Medium gravel" .
+
+<http://iuss-wrb.github.io/wrb#Coarse-surface-fragments/N> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Coarse-surface-fragments ;
+    skos:notation "N" ;
+    skos:prefLabel "No coarse surface fragments" .
+
+<http://iuss-wrb.github.io/wrb#Coarse-surface-fragments/S> a skos:Concept ;
+    skos:definition "> 6 - 20" ;
+    skos:inScheme wrb:Coarse-surface-fragments ;
+    skos:notation "S" ;
+    skos:prefLabel "Stones" .
+
+<http://iuss-wrb.github.io/wrb#Continuity/AC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Continuity ;
+    skos:notation "AC" ;
+    skos:prefLabel "All cracks continue into the underlying layer" .
+
+<http://iuss-wrb.github.io/wrb#Continuity/HC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Continuity ;
+    skos:notation "HC" ;
+    skos:prefLabel "At least half, but not all of the cracks continue into the underlying layer" .
+
+<http://iuss-wrb.github.io/wrb#Continuity/NC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Continuity ;
+    skos:notation "NC" ;
+    skos:prefLabel "Cracks do not continue into the underlying layer" .
+
+<http://iuss-wrb.github.io/wrb#Continuity/SC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Continuity ;
+    skos:notation "SC" ;
+    skos:prefLabel "At least one, but less than half of the cracks continue into the underlying layer" .
+
+<http://iuss-wrb.github.io/wrb#Cracks-persistence/IT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cracks-persistence ;
+    skos:notation "IT" ;
+    skos:prefLabel "Irreversible (persist year-round)" .
+
+<http://iuss-wrb.github.io/wrb#Cracks-persistence/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cracks-persistence ;
+    skos:notation "NO" ;
+    skos:prefLabel "No cracks" .
+
+<http://iuss-wrb.github.io/wrb#Cracks-persistence/RT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cracks-persistence ;
+    skos:notation "RT" ;
+    skos:prefLabel "Reversible (open and close with changing soil moisture)" .
+
+<http://iuss-wrb.github.io/wrb#Cryogenic-alteration-feature/CF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cryogenic-alteration-feature ;
+    skos:notation "CF" ;
+    skos:prefLabel "Separation of coarse material and fine material" .
+
+<http://iuss-wrb.github.io/wrb#Cryogenic-alteration-feature/DB> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cryogenic-alteration-feature ;
+    skos:notation "DB" ;
+    skos:prefLabel "Disrupted lower layer boundary" .
+
+<http://iuss-wrb.github.io/wrb#Cryogenic-alteration-feature/IL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cryogenic-alteration-feature ;
+    skos:notation "IL" ;
+    skos:prefLabel "Ice lens" .
+
+<http://iuss-wrb.github.io/wrb#Cryogenic-alteration-feature/IW> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cryogenic-alteration-feature ;
+    skos:notation "IW" ;
+    skos:prefLabel "Ice wedge" .
+
+<http://iuss-wrb.github.io/wrb#Cryogenic-alteration-feature/MI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cryogenic-alteration-feature ;
+    skos:notation "MI" ;
+    skos:prefLabel "Mineral involutions in an organic layer" .
+
+<http://iuss-wrb.github.io/wrb#Cryogenic-alteration-feature/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cryogenic-alteration-feature ;
+    skos:notation "NO" ;
+    skos:prefLabel "None" .
+
+<http://iuss-wrb.github.io/wrb#Cryogenic-alteration-feature/OI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cryogenic-alteration-feature ;
+    skos:notation "OI" ;
+    skos:prefLabel "Organic involutions in a mineral layer" .
+
+<http://iuss-wrb.github.io/wrb#Cryogenic-alteration-feature/OT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cryogenic-alteration-feature ;
+    skos:notation "OT" ;
+    skos:prefLabel "Other" .
+
+<http://iuss-wrb.github.io/wrb#Cultivation-type/ACA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cultivation-type ;
+    skos:notation "ACA" ;
+    skos:prefLabel "Simultaneous agroforestry system with trees and annual crops" .
+
+<http://iuss-wrb.github.io/wrb#Cultivation-type/ACB> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cultivation-type ;
+    skos:notation "ACB" ;
+    skos:prefLabel "Simultaneous agroforestry system with trees, perennial and annual crops" .
+
+<http://iuss-wrb.github.io/wrb#Cultivation-type/ACG> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cultivation-type ;
+    skos:notation "ACG" ;
+    skos:prefLabel "Simultaneous agroforestry system with trees, crops and grassland" .
+
+<http://iuss-wrb.github.io/wrb#Cultivation-type/ACP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cultivation-type ;
+    skos:notation "ACP" ;
+    skos:prefLabel "Simultaneous agroforestry system with trees and perennial crops" .
+
+<http://iuss-wrb.github.io/wrb#Cultivation-type/AGG> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cultivation-type ;
+    skos:notation "AGG" ;
+    skos:prefLabel "Simultaneous agroforestry system with trees and grassland" .
+
+<http://iuss-wrb.github.io/wrb#Cultivation-type/CPA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cultivation-type ;
+    skos:notation "CPA" ;
+    skos:prefLabel "Annual crop production (e.g. food, fodder, fuel, fiber, ornamental plants)" .
+
+<http://iuss-wrb.github.io/wrb#Cultivation-type/CPP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cultivation-type ;
+    skos:notation "CPP" ;
+    skos:prefLabel "Perennial crop production (e.g. food, fodder, fuel, fiber, ornamental plants)" .
+
+<http://iuss-wrb.github.io/wrb#Cultivation-type/FDF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cultivation-type ;
+    skos:notation "FDF" ;
+    skos:prefLabel "Fallow, all plants constantly removed (dry farming)" .
+
+<http://iuss-wrb.github.io/wrb#Cultivation-type/FOL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cultivation-type ;
+    skos:notation "FOL" ;
+    skos:prefLabel "Fallow, at least 12 months, with spontaneous vegetation" .
+
+<http://iuss-wrb.github.io/wrb#Cultivation-type/FYO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cultivation-type ;
+    skos:notation "FYO" ;
+    skos:prefLabel "Fallow, less than 12 months, with spontaneous vegetation" .
+
+<http://iuss-wrb.github.io/wrb#Cultivation-type/GIN> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cultivation-type ;
+    skos:notation "GIN" ;
+    skos:prefLabel "Intensively-managed grassland, not pastured" .
+
+<http://iuss-wrb.github.io/wrb#Cultivation-type/GIP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cultivation-type ;
+    skos:notation "GIP" ;
+    skos:prefLabel "Intensively-managed grassland, pastured" .
+
+<http://iuss-wrb.github.io/wrb#Cultivation-type/GNP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Cultivation-type ;
+    skos:notation "GNP" ;
+    skos:prefLabel "Pasture on (semi-)natural vegetation" .
+
+<http://iuss-wrb.github.io/wrb#Current-weather-conditions/OV> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Current-weather-conditions ;
+    skos:notation "OV" ;
+    skos:prefLabel "Overcast" .
+
+<http://iuss-wrb.github.io/wrb#Current-weather-conditions/PC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Current-weather-conditions ;
+    skos:notation "PC" ;
+    skos:prefLabel "Partly cloudy" .
+
+<http://iuss-wrb.github.io/wrb#Current-weather-conditions/RA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Current-weather-conditions ;
+    skos:notation "RA" ;
+    skos:prefLabel "Rain" .
+
+<http://iuss-wrb.github.io/wrb#Current-weather-conditions/SL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Current-weather-conditions ;
+    skos:notation "SL" ;
+    skos:prefLabel "Sleet" .
+
+<http://iuss-wrb.github.io/wrb#Current-weather-conditions/SN> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Current-weather-conditions ;
+    skos:notation "SN" ;
+    skos:prefLabel "Snow" .
+
+<http://iuss-wrb.github.io/wrb#Current-weather-conditions/SU> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Current-weather-conditions ;
+    skos:notation "SU" ;
+    skos:prefLabel "Sunny/clear" .
+
+<http://iuss-wrb.github.io/wrb#Dead-residues-of-specific-plants/N> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Dead-residues-of-specific-plants ;
+    skos:notation "N" ;
+    skos:prefLabel "No dead plant residues" .
+
+<http://iuss-wrb.github.io/wrb#Dead-residues-of-specific-plants/O> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Dead-residues-of-specific-plants ;
+    skos:notation "O" ;
+    skos:prefLabel "Other plants" .
+
+<http://iuss-wrb.github.io/wrb#Dead-residues-of-specific-plants/S> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Dead-residues-of-specific-plants ;
+    skos:notation "S" ;
+    skos:prefLabel "Moss fibres" .
+
+<http://iuss-wrb.github.io/wrb#Dead-residues-of-specific-plants/W> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Dead-residues-of-specific-plants ;
+    skos:notation "W" ;
+    skos:prefLabel "Wood" .
+
+<http://iuss-wrb.github.io/wrb#Degree-of-erosion/E> a skos:Concept ;
+    skos:definition "Substantial removal of deeper subsurface layers, original ecological functions fully destroyed (badlands)" ;
+    skos:inScheme wrb:Degree-of-erosion ;
+    skos:notation "E" ;
+    skos:prefLabel "Extreme" .
+
+<http://iuss-wrb.github.io/wrb#Degree-of-erosion/M> a skos:Concept ;
+    skos:definition "Clear evidence of removal of surface layers, original ecological functions partly destroyed" ;
+    skos:inScheme wrb:Degree-of-erosion ;
+    skos:notation "M" ;
+    skos:prefLabel "Moderate" .
+
+<http://iuss-wrb.github.io/wrb#Degree-of-erosion/S> a skos:Concept ;
+    skos:definition "Some evidence of damage to surface layers, original ecological functions largely intact" ;
+    skos:inScheme wrb:Degree-of-erosion ;
+    skos:notation "S" ;
+    skos:prefLabel "Slight" .
+
+<http://iuss-wrb.github.io/wrb#Degree-of-erosion/V> a skos:Concept ;
+    skos:definition "Surface layers completely removed and subsurface layers exposed, original ecological functions largely destroyed" ;
+    skos:inScheme wrb:Degree-of-erosion ;
+    skos:notation "V" ;
+    skos:prefLabel "Severe" .
+
+<http://iuss-wrb.github.io/wrb#Distance-between-surface-cracks/HU> a skos:Concept ;
+    skos:definition "> 200 - 500" ;
+    skos:inScheme wrb:Distance-between-surface-cracks ;
+    skos:notation "HU" ;
+    skos:prefLabel "Huge" .
+
+<http://iuss-wrb.github.io/wrb#Distance-between-surface-cracks/LA> a skos:Concept ;
+    skos:definition "> 20 - 50" ;
+    skos:inScheme wrb:Distance-between-surface-cracks ;
+    skos:notation "LA" ;
+    skos:prefLabel "Large" .
+
+<http://iuss-wrb.github.io/wrb#Distance-between-surface-cracks/ME> a skos:Concept ;
+    skos:definition "> 5 - 20" ;
+    skos:inScheme wrb:Distance-between-surface-cracks ;
+    skos:notation "ME" ;
+    skos:prefLabel "Medium" .
+
+<http://iuss-wrb.github.io/wrb#Distance-between-surface-cracks/SM> a skos:Concept ;
+    skos:definition "> 2 - 5" ;
+    skos:inScheme wrb:Distance-between-surface-cracks ;
+    skos:notation "SM" ;
+    skos:prefLabel "Small" .
+
+<http://iuss-wrb.github.io/wrb#Distance-between-surface-cracks/TI> a skos:Concept ;
+    skos:definition "≤ 0.5" ;
+    skos:inScheme wrb:Distance-between-surface-cracks ;
+    skos:notation "TI" ;
+    skos:prefLabel "Tiny" .
+
+<http://iuss-wrb.github.io/wrb#Distance-between-surface-cracks/VH> a skos:Concept ;
+    skos:definition "> 500" ;
+    skos:inScheme wrb:Distance-between-surface-cracks ;
+    skos:notation "VH" ;
+    skos:prefLabel "Very huge" .
+
+<http://iuss-wrb.github.io/wrb#Distance-between-surface-cracks/VL> a skos:Concept ;
+    skos:definition "> 50 -200" ;
+    skos:inScheme wrb:Distance-between-surface-cracks ;
+    skos:notation "VL" ;
+    skos:prefLabel "Very large" .
+
+<http://iuss-wrb.github.io/wrb#Distance-between-surface-cracks/VS> a skos:Concept ;
+    skos:definition "> 0.5 - 2" ;
+    skos:inScheme wrb:Distance-between-surface-cracks ;
+    skos:notation "VS" ;
+    skos:prefLabel "Very small" .
+
+<http://iuss-wrb.github.io/wrb#Distinctness-of-the-layers-lower-boundary/A> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Distinctness-of-the-layers-lower-boundary ;
+    skos:notation "A" ;
+    skos:prefLabel "Abrupt" .
+
+<http://iuss-wrb.github.io/wrb#Distinctness-of-the-layers-lower-boundary/C> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Distinctness-of-the-layers-lower-boundary ;
+    skos:notation "C" ;
+    skos:prefLabel "Clear" .
+
+<http://iuss-wrb.github.io/wrb#Distinctness-of-the-layers-lower-boundary/D> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Distinctness-of-the-layers-lower-boundary ;
+    skos:notation "D" ;
+    skos:prefLabel "Diffuse" .
+
+<http://iuss-wrb.github.io/wrb#Distinctness-of-the-layers-lower-boundary/G> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Distinctness-of-the-layers-lower-boundary ;
+    skos:notation "G" ;
+    skos:prefLabel "Gradual" .
+
+<http://iuss-wrb.github.io/wrb#Distinctness-of-the-layers-lower-boundary/V> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Distinctness-of-the-layers-lower-boundary ;
+    skos:notation "V" ;
+    skos:prefLabel "Very Abrupt" .
+
+<http://iuss-wrb.github.io/wrb#Ecozones-according-to-Schultz/BOR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Ecozones-according-to-Schultz ;
+    skos:notation "BOR" ;
+    skos:prefLabel "Boreal zone" .
+
+<http://iuss-wrb.github.io/wrb#Ecozones-according-to-Schultz/MDR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Ecozones-according-to-Schultz ;
+    skos:notation "MDR" ;
+    skos:prefLabel "Dry mid-latitudes" .
+
+<http://iuss-wrb.github.io/wrb#Ecozones-according-to-Schultz/MHU> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Ecozones-according-to-Schultz ;
+    skos:notation "MHU" ;
+    skos:prefLabel "Humid mid-latitudes" .
+
+<http://iuss-wrb.github.io/wrb#Ecozones-according-to-Schultz/POS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Ecozones-according-to-Schultz ;
+    skos:notation "POS" ;
+    skos:prefLabel "Polar-subpolar zone" .
+
+<http://iuss-wrb.github.io/wrb#Ecozones-according-to-Schultz/SWR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Ecozones-according-to-Schultz ;
+    skos:notation "SWR" ;
+    skos:prefLabel "Subtropics with winter rain (Mediterranean climate)" .
+
+<http://iuss-wrb.github.io/wrb#Ecozones-according-to-Schultz/SYR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Ecozones-according-to-Schultz ;
+    skos:notation "SYR" ;
+    skos:prefLabel "Subtropics with year-round rain" .
+
+<http://iuss-wrb.github.io/wrb#Ecozones-according-to-Schultz/TSD> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Ecozones-according-to-Schultz ;
+    skos:notation "TSD" ;
+    skos:prefLabel "Dry tropics and subtropics" .
+
+<http://iuss-wrb.github.io/wrb#Ecozones-according-to-Schultz/TSR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Ecozones-according-to-Schultz ;
+    skos:notation "TSR" ;
+    skos:prefLabel "Tropics with summer rain" .
+
+<http://iuss-wrb.github.io/wrb#Ecozones-according-to-Schultz/TYR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Ecozones-according-to-Schultz ;
+    skos:notation "TYR" ;
+    skos:prefLabel "Tropics with year-round rain" .
+
+<http://iuss-wrb.github.io/wrb#Grade-of-structural-units/M> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Grade-of-structural-units ;
+    skos:notation "M" ;
+    skos:prefLabel "Moderate" .
+
+<http://iuss-wrb.github.io/wrb#Grade-of-structural-units/S> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Grade-of-structural-units ;
+    skos:notation "S" ;
+    skos:prefLabel "Strong" .
+
+<http://iuss-wrb.github.io/wrb#Grade-of-structural-units/W> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Grade-of-structural-units ;
+    skos:notation "W" ;
+    skos:prefLabel "Weak" .
+
+<http://iuss-wrb.github.io/wrb#Gypsum-contents/EX> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Gypsum-contents ;
+    skos:notation "EX" ;
+    skos:prefLabel "Extremely gypsiferous" .
+
+<http://iuss-wrb.github.io/wrb#Gypsum-contents/MO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Gypsum-contents ;
+    skos:notation "MO" ;
+    skos:prefLabel "Moderately gypsiferous" .
+
+<http://iuss-wrb.github.io/wrb#Gypsum-contents/NG> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Gypsum-contents ;
+    skos:notation "NG" ;
+    skos:prefLabel "Non-gypsiferous" .
+
+<http://iuss-wrb.github.io/wrb#Gypsum-contents/SL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Gypsum-contents ;
+    skos:notation "SL" ;
+    skos:prefLabel "Slightly gypsiferous" .
+
+<http://iuss-wrb.github.io/wrb#Gypsum-contents/ST> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Gypsum-contents ;
+    skos:notation "ST" ;
+    skos:prefLabel "Strongly gypsiferous" .
+
+<http://iuss-wrb.github.io/wrb#Human-made-surface-unevenness/CD> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Human-made-surface-unevenness ;
+    skos:notation "CD" ;
+    skos:prefLabel "Drainage canals" .
+
+<http://iuss-wrb.github.io/wrb#Human-made-surface-unevenness/CI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Human-made-surface-unevenness ;
+    skos:notation "CI" ;
+    skos:prefLabel "Irrigation canals" .
+
+<http://iuss-wrb.github.io/wrb#Human-made-surface-unevenness/CO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Human-made-surface-unevenness ;
+    skos:notation "CO" ;
+    skos:prefLabel "Other canals" .
+
+<http://iuss-wrb.github.io/wrb#Human-made-surface-unevenness/EL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Human-made-surface-unevenness ;
+    skos:notation "EL" ;
+    skos:prefLabel "Other longitudinal elevations" .
+
+<http://iuss-wrb.github.io/wrb#Human-made-surface-unevenness/EP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Human-made-surface-unevenness ;
+    skos:notation "EP" ;
+    skos:prefLabel "Polygonal elevations" .
+
+<http://iuss-wrb.github.io/wrb#Human-made-surface-unevenness/ER> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Human-made-surface-unevenness ;
+    skos:notation "ER" ;
+    skos:prefLabel "Rounded elevations" .
+
+<http://iuss-wrb.github.io/wrb#Human-made-surface-unevenness/HP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Human-made-surface-unevenness ;
+    skos:notation "HP" ;
+    skos:prefLabel "Polygonal holes" .
+
+<http://iuss-wrb.github.io/wrb#Human-made-surface-unevenness/HR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Human-made-surface-unevenness ;
+    skos:notation "HR" ;
+    skos:prefLabel "Rounded holes" .
+
+<http://iuss-wrb.github.io/wrb#Human-made-surface-unevenness/HT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Human-made-surface-unevenness ;
+    skos:notation "HT" ;
+    skos:prefLabel "Human-made terraces" .
+
+<http://iuss-wrb.github.io/wrb#Human-made-surface-unevenness/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Human-made-surface-unevenness ;
+    skos:notation "NO" ;
+    skos:prefLabel "None" .
+
+<http://iuss-wrb.github.io/wrb#Human-made-surface-unevenness/OT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Human-made-surface-unevenness ;
+    skos:notation "OT" ;
+    skos:prefLabel "Other" .
+
+<http://iuss-wrb.github.io/wrb#Human-made-surface-unevenness/RB> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Human-made-surface-unevenness ;
+    skos:notation "RB" ;
+    skos:prefLabel "Raised beds" .
+
+<http://iuss-wrb.github.io/wrb#In-situ-alterations/CP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:In-situ-alterations ;
+    skos:notation "CP" ;
+    skos:prefLabel "Compaction, other than a plough pan" .
+
+<http://iuss-wrb.github.io/wrb#In-situ-alterations/LO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:In-situ-alterations ;
+    skos:notation "LO" ;
+    skos:prefLabel "Loosening" .
+
+<http://iuss-wrb.github.io/wrb#In-situ-alterations/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:In-situ-alterations ;
+    skos:notation "NO" ;
+    skos:prefLabel "No in-situ alteration" .
+
+<http://iuss-wrb.github.io/wrb#In-situ-alterations/OT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:In-situ-alterations ;
+    skos:notation "OT" ;
+    skos:prefLabel "Other" .
+
+<http://iuss-wrb.github.io/wrb#In-situ-alterations/PA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:In-situ-alterations ;
+    skos:notation "PA" ;
+    skos:prefLabel "Ploughing, annually" .
+
+<http://iuss-wrb.github.io/wrb#In-situ-alterations/PO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:In-situ-alterations ;
+    skos:notation "PO" ;
+    skos:prefLabel "Ploughing, at least once every 5 years" .
+
+<http://iuss-wrb.github.io/wrb#In-situ-alterations/PP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:In-situ-alterations ;
+    skos:notation "PP" ;
+    skos:prefLabel "Ploughing in the past, not ploughed since > 5 years" .
+
+<http://iuss-wrb.github.io/wrb#In-situ-alterations/PU> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:In-situ-alterations ;
+    skos:notation "PU" ;
+    skos:prefLabel "Ploughing, unspecified" .
+
+<http://iuss-wrb.github.io/wrb#In-situ-alterations/RM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:In-situ-alterations ;
+    skos:notation "RM" ;
+    skos:prefLabel "Remodelled (e.g. single ploughing)" .
+
+<http://iuss-wrb.github.io/wrb#In-situ-alterations/SD> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:In-situ-alterations ;
+    skos:notation "SD" ;
+    skos:prefLabel "Structure deterioration, other than by ploughing or remodelling" .
+
+<http://iuss-wrb.github.io/wrb#Layers-with-permafrost/I> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Layers-with-permafrost ;
+    skos:notation "I" ;
+    skos:prefLabel "Massive ice, cementation by ice or readily visible ice crystals" .
+
+<http://iuss-wrb.github.io/wrb#Layers-with-permafrost/N> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Layers-with-permafrost ;
+    skos:notation "N" ;
+    skos:prefLabel "No permafrost" .
+
+<http://iuss-wrb.github.io/wrb#Layers-with-permafrost/T> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Layers-with-permafrost ;
+    skos:notation "T" ;
+    skos:prefLabel "Soil temperature of < 0 °C and insufficient water to form readily visible ice crystals" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/OIB> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "OIB" ;
+    skos:prefLabel "Inside soil aggregates: both concretions and/or nodules (not possible to distinguish)" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/OIC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "OIC" ;
+    skos:prefLabel "Inside soil aggregates: concretions" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/OIM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "OIM" ;
+    skos:prefLabel "Inside soil aggregates: masses" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/OIN> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "OIN" ;
+    skos:prefLabel "Inside soil aggregates: nodules" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/OOA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "OOA" ;
+    skos:prefLabel "On surfaces of soil aggregates" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/OOE> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "OOE" ;
+    skos:prefLabel "On biopore walls, lining the entire wall surface" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/OOH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "OOH" ;
+    skos:prefLabel "Adjacent to surfaces of soil aggregates, infused into the matrix (hypocoats)" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/OOI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "OOI" ;
+    skos:prefLabel "Adjacent to biopores, infused into the matrix (hypocoats)" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/OON> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "OON" ;
+    skos:prefLabel "On biopore walls, not lining the entire wall surface" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/ORN> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "ORN" ;
+    skos:prefLabel "Distributed over the layer, no order visible" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/ORS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "ORS" ;
+    skos:prefLabel "Distributed over the layer, surrounding areas with reductimorphic features" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/ORT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "ORT" ;
+    skos:prefLabel "Throughout" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/RIA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "RIA" ;
+    skos:prefLabel "Inside soil aggregates" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/ROA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "ROA" ;
+    skos:prefLabel "Outer parts of soil aggregates" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/ROE> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "ROE" ;
+    skos:prefLabel "Around biopores, surrounding the entire pores" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/RON> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "RON" ;
+    skos:prefLabel "Around biopores, not surrounding the entire pores" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/RRN> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "RRN" ;
+    skos:prefLabel "Distributed over the layer, no order visible" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/RRS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "RRS" ;
+    skos:prefLabel "Distributed over the layer, surrounding areas with oximorphic features" .
+
+<http://iuss-wrb.github.io/wrb#Location-of-oximorphic-and-reductimorphic-features/RRT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Location-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "RRT" ;
+    skos:prefLabel "Throughout" .
+
+<http://iuss-wrb.github.io/wrb#Moisture-class/DR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Moisture-class ;
+    skos:notation "DR" ;
+    skos:prefLabel "Dry" .
+
+<http://iuss-wrb.github.io/wrb#Moisture-class/MO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Moisture-class ;
+    skos:notation "MO" ;
+    skos:prefLabel "Moist" .
+
+<http://iuss-wrb.github.io/wrb#Moisture-class/SM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Moisture-class ;
+    skos:notation "SM" ;
+    skos:prefLabel "Slightly moist" .
+
+<http://iuss-wrb.github.io/wrb#Moisture-class/VD> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Moisture-class ;
+    skos:notation "VD" ;
+    skos:prefLabel "Very dry" .
+
+<http://iuss-wrb.github.io/wrb#Moisture-class/WE> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Moisture-class ;
+    skos:notation "WE" ;
+    skos:prefLabel "Wet" .
+
+<http://iuss-wrb.github.io/wrb#Natural-surface-unevenness/G> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Natural-surface-unevenness ;
+    skos:notation "G" ;
+    skos:prefLabel "Unevenness caused by shrink-swell clays (gilgai relief)" .
+
+<http://iuss-wrb.github.io/wrb#Natural-surface-unevenness/N> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Natural-surface-unevenness ;
+    skos:notation "N" ;
+    skos:prefLabel "None" .
+
+<http://iuss-wrb.github.io/wrb#Natural-surface-unevenness/O> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Natural-surface-unevenness ;
+    skos:notation "O" ;
+    skos:prefLabel "Other" .
+
+<http://iuss-wrb.github.io/wrb#Natural-surface-unevenness/P> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Natural-surface-unevenness ;
+    skos:notation "P" ;
+    skos:prefLabel "Unevenness caused by permafrost (palsa, pingo, mud boils, thufurs etc.)" .
+
+<http://iuss-wrb.github.io/wrb#Organic-hydromorphic-and-terrestrial-organotechnic-and-mineral-layers/M> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Organic-hydromorphic-and-terrestrial-organotechnic-and-mineral-layers ;
+    skos:notation "M" ;
+    skos:prefLabel "Mineral" .
+
+<http://iuss-wrb.github.io/wrb#Organic-hydromorphic-and-terrestrial-organotechnic-and-mineral-layers/OH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Organic-hydromorphic-and-terrestrial-organotechnic-and-mineral-layers ;
+    skos:notation "OH" ;
+    skos:prefLabel "Organic hydromorphic" .
+
+<http://iuss-wrb.github.io/wrb#Organic-hydromorphic-and-terrestrial-organotechnic-and-mineral-layers/OT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Organic-hydromorphic-and-terrestrial-organotechnic-and-mineral-layers ;
+    skos:notation "OT" ;
+    skos:prefLabel "Organic terrestrial" .
+
+<http://iuss-wrb.github.io/wrb#Organic-hydromorphic-and-terrestrial-organotechnic-and-mineral-layers/TH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Organic-hydromorphic-and-terrestrial-organotechnic-and-mineral-layers ;
+    skos:notation "TH" ;
+    skos:prefLabel "Organotechnic hydromorphic" .
+
+<http://iuss-wrb.github.io/wrb#Organic-hydromorphic-and-terrestrial-organotechnic-and-mineral-layers/TT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Organic-hydromorphic-and-terrestrial-organotechnic-and-mineral-layers ;
+    skos:notation "TT" ;
+    skos:prefLabel "Organotechnic terrestrial" .
+
+<http://iuss-wrb.github.io/wrb#Organic-matter-coatings-and-oxide-coatings-on-sand-andor-coarse-silt-grains/A> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Organic-matter-coatings-and-oxide-coatings-on-sand-andor-coarse-silt-grains ;
+    skos:notation "A" ;
+    skos:prefLabel "All sand and coarse silt grains coated without cracks" .
+
+<http://iuss-wrb.github.io/wrb#Organic-matter-coatings-and-oxide-coatings-on-sand-andor-coarse-silt-grains/C> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Organic-matter-coatings-and-oxide-coatings-on-sand-andor-coarse-silt-grains ;
+    skos:notation "C" ;
+    skos:prefLabel "Cracked coatings on sand grains" .
+
+<http://iuss-wrb.github.io/wrb#Organic-matter-coatings-and-oxide-coatings-on-sand-andor-coarse-silt-grains/U> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Organic-matter-coatings-and-oxide-coatings-on-sand-andor-coarse-silt-grains ;
+    skos:notation "U" ;
+    skos:prefLabel "Uncoated sand and/or coarse silt grains" .
+
+<http://iuss-wrb.github.io/wrb#Packing-density/FR> a skos:Concept ;
+    skos:definition "Only the knifepoint penetrates when forces are applied" ;
+    skos:inScheme wrb:Packing-density ;
+    skos:notation "FR" ;
+    skos:prefLabel "Firm" .
+
+<http://iuss-wrb.github.io/wrb#Packing-density/IN> a skos:Concept ;
+    skos:definition "Knife penetrates half when forces are applied" ;
+    skos:inScheme wrb:Packing-density ;
+    skos:notation "IN" ;
+    skos:prefLabel "Intermediate" .
+
+<http://iuss-wrb.github.io/wrb#Packing-density/LO> a skos:Concept ;
+    skos:definition "Knife penetrates completely when forces are applied" ;
+    skos:inScheme wrb:Packing-density ;
+    skos:notation "LO" ;
+    skos:prefLabel "Loose" .
+
+<http://iuss-wrb.github.io/wrb#Packing-density/VL> a skos:Concept ;
+    skos:definition "Knife penetrates completely even when applying low forces" ;
+    skos:inScheme wrb:Packing-density ;
+    skos:notation "VL" ;
+    skos:prefLabel "Very loose" .
+
+<http://iuss-wrb.github.io/wrb#Packing-density/VR> a skos:Concept ;
+    skos:definition "Knife does not (or only a little bit) penetrate when forces are applied" ;
+    skos:inScheme wrb:Packing-density ;
+    skos:notation "VR" ;
+    skos:prefLabel "Very firm" .
+
+<http://iuss-wrb.github.io/wrb#Past-weather-conditions/ND> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Past-weather-conditions ;
+    skos:notation "ND" ;
+    skos:prefLabel "No rain in the last 24 hours" .
+
+<http://iuss-wrb.github.io/wrb#Past-weather-conditions/NM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Past-weather-conditions ;
+    skos:notation "NM" ;
+    skos:prefLabel "No rain in the last month" .
+
+<http://iuss-wrb.github.io/wrb#Past-weather-conditions/NW> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Past-weather-conditions ;
+    skos:notation "NW" ;
+    skos:prefLabel "No rain in the last week" .
+
+<http://iuss-wrb.github.io/wrb#Past-weather-conditions/RD> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Past-weather-conditions ;
+    skos:notation "RD" ;
+    skos:prefLabel "Rain but no heavy rain in the last 24 hours" .
+
+<http://iuss-wrb.github.io/wrb#Past-weather-conditions/RE> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Past-weather-conditions ;
+    skos:notation "RE" ;
+    skos:prefLabel "Extremely rainy or snow melting" .
+
+<http://iuss-wrb.github.io/wrb#Past-weather-conditions/RH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Past-weather-conditions ;
+    skos:notation "RH" ;
+    skos:prefLabel "Heavy rain for some days or excessive rain in the last 24 hours" .
+
+<http://iuss-wrb.github.io/wrb#Patterned-ground/N> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Patterned-ground ;
+    skos:notation "N" ;
+    skos:prefLabel "None" .
+
+<http://iuss-wrb.github.io/wrb#Patterned-ground/P> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Patterned-ground ;
+    skos:notation "P" ;
+    skos:prefLabel "Polygons" .
+
+<http://iuss-wrb.github.io/wrb#Patterned-ground/R> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Patterned-ground ;
+    skos:notation "R" ;
+    skos:prefLabel "Rings" .
+
+<http://iuss-wrb.github.io/wrb#Patterned-ground/S> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Patterned-ground ;
+    skos:notation "S" ;
+    skos:prefLabel "Stripes" .
+
+<http://iuss-wrb.github.io/wrb#Persistance-of-surface-cracks/I> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Persistance-of-surface-cracks ;
+    skos:notation "I" ;
+    skos:prefLabel "Irreversible (persist year-round, e.g., drained polder cracks, cracks in cemented layers)" .
+
+<http://iuss-wrb.github.io/wrb#Persistance-of-surface-cracks/R> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Persistance-of-surface-cracks ;
+    skos:notation "R" ;
+    skos:prefLabel "Reversible (open and close with changing moisture, e.g., in Vertisols and in soils with the Vertic or the Protovertic qualifier)" .
+
+<http://iuss-wrb.github.io/wrb#Pore-size/CO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Pore-size ;
+    skos:notation "CO" ;
+    skos:prefLabel "Coarse" .
+
+<http://iuss-wrb.github.io/wrb#Pore-size/FI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Pore-size ;
+    skos:notation "FI" ;
+    skos:prefLabel "Fine" .
+
+<http://iuss-wrb.github.io/wrb#Pore-size/ME> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Pore-size ;
+    skos:notation "ME" ;
+    skos:prefLabel "Medium" .
+
+<http://iuss-wrb.github.io/wrb#Pore-size/VC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Pore-size ;
+    skos:notation "VC" ;
+    skos:prefLabel "Very Coarse" .
+
+<http://iuss-wrb.github.io/wrb#Pore-size/VF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Pore-size ;
+    skos:notation "VF" ;
+    skos:prefLabel "Very Fine" .
+
+<http://iuss-wrb.github.io/wrb#Position-of-the-soil-profile-if-the-soil-surface-is-uneven/E> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Position-of-the-soil-profile-if-the-soil-surface-is-uneven ;
+    skos:notation "E" ;
+    skos:prefLabel "On an unaffected surface" .
+
+<http://iuss-wrb.github.io/wrb#Position-of-the-soil-profile-if-the-soil-surface-is-uneven/H> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Position-of-the-soil-profile-if-the-soil-surface-is-uneven ;
+    skos:notation "H" ;
+    skos:prefLabel "On the high" .
+
+<http://iuss-wrb.github.io/wrb#Position-of-the-soil-profile-if-the-soil-surface-is-uneven/L> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Position-of-the-soil-profile-if-the-soil-surface-is-uneven ;
+    skos:notation "L" ;
+    skos:prefLabel "In the low" .
+
+<http://iuss-wrb.github.io/wrb#Position-of-the-soil-profile-if-the-soil-surface-is-uneven/S> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Position-of-the-soil-profile-if-the-soil-surface-is-uneven ;
+    skos:notation "S" ;
+    skos:prefLabel "On the slope" .
+
+<http://iuss-wrb.github.io/wrb#Potentiometric-pH-measurement/C15> a skos:Concept ;
+    skos:definition "Mixing ratio 1:5" ;
+    skos:inScheme wrb:Potentiometric-pH-measurement ;
+    skos:notation "C15" ;
+    skos:prefLabel "CaCl2, 0.01 M" .
+
+<http://iuss-wrb.github.io/wrb#Potentiometric-pH-measurement/K15> a skos:Concept ;
+    skos:definition "Mixing ratio 1:5" ;
+    skos:inScheme wrb:Potentiometric-pH-measurement ;
+    skos:notation "K15" ;
+    skos:prefLabel "KCl, 1 M" .
+
+<http://iuss-wrb.github.io/wrb#Potentiometric-pH-measurement/W11> a skos:Concept ;
+    skos:definition "Mixing ratio 1:1" ;
+    skos:inScheme wrb:Potentiometric-pH-measurement ;
+    skos:notation "W11" ;
+    skos:prefLabel "Distilled water (H2O)" .
+
+<http://iuss-wrb.github.io/wrb#Potentiometric-pH-measurement/W15> a skos:Concept ;
+    skos:definition "Mixing ratio 1:5" ;
+    skos:inScheme wrb:Potentiometric-pH-measurement ;
+    skos:notation "W15" ;
+    skos:prefLabel "Distilled water (H2O)" .
+
+<http://iuss-wrb.github.io/wrb#Presence-of-strata-within-a-layer/A> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Presence-of-strata-within-a-layer ;
+    skos:notation "A" ;
+    skos:prefLabel "Layer is composed of two or more alluvial strata" .
+
+<http://iuss-wrb.github.io/wrb#Presence-of-strata-within-a-layer/B> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Presence-of-strata-within-a-layer ;
+    skos:notation "B" ;
+    skos:prefLabel "Layer is composed of two or more alluvial strata containing tephra" .
+
+<http://iuss-wrb.github.io/wrb#Presence-of-strata-within-a-layer/N> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Presence-of-strata-within-a-layer ;
+    skos:notation "N" ;
+    skos:prefLabel "Layer is not composed of different strata" .
+
+<http://iuss-wrb.github.io/wrb#Presence-of-strata-within-a-layer/T> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Presence-of-strata-within-a-layer ;
+    skos:notation "T" ;
+    skos:prefLabel "Layer is composed of two or more tephra strata" .
+
+<http://iuss-wrb.github.io/wrb#Profile-Position/BS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Profile-Position ;
+    skos:notation "BS" ;
+    skos:prefLabel "Backslope" .
+
+<http://iuss-wrb.github.io/wrb#Profile-Position/EB> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Profile-Position ;
+    skos:notation "EB" ;
+    skos:prefLabel "Endorheic basin" .
+
+<http://iuss-wrb.github.io/wrb#Profile-Position/FS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Profile-Position ;
+    skos:notation "FS" ;
+    skos:prefLabel "Footslope" .
+
+<http://iuss-wrb.github.io/wrb#Profile-Position/OB> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Profile-Position ;
+    skos:notation "OB" ;
+    skos:prefLabel "Basin with outflow" .
+
+<http://iuss-wrb.github.io/wrb#Profile-Position/SH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Profile-Position ;
+    skos:notation "SH" ;
+    skos:prefLabel "Shoulder" .
+
+<http://iuss-wrb.github.io/wrb#Profile-Position/SU> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Profile-Position ;
+    skos:notation "SU" ;
+    skos:prefLabel "Summit" .
+
+<http://iuss-wrb.github.io/wrb#Profile-Position/TS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Profile-Position ;
+    skos:notation "TS" ;
+    skos:prefLabel "Toeslope" .
+
+<http://iuss-wrb.github.io/wrb#Profile-Position/VB> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Profile-Position ;
+    skos:notation "VB" ;
+    skos:prefLabel "Valley bottom" .
+
+<http://iuss-wrb.github.io/wrb#Ranges-of-rH-values/R1> a skos:Concept ;
+    skos:definition "Methane formation" ;
+    skos:inScheme wrb:Ranges-of-rH-values ;
+    skos:notation "R1" ;
+    skos:prefLabel "<10" .
+
+<http://iuss-wrb.github.io/wrb#Ranges-of-rH-values/R2> a skos:Concept ;
+    skos:definition "Sulfide formation" ;
+    skos:inScheme wrb:Ranges-of-rH-values ;
+    skos:notation "R2" ;
+    skos:prefLabel "okt-13" .
+
+<http://iuss-wrb.github.io/wrb#Ranges-of-rH-values/R3> a skos:Concept ;
+    skos:definition "Formation of FeII/FeIII oxides (green rust)" ;
+    skos:inScheme wrb:Ranges-of-rH-values ;
+    skos:notation "R3" ;
+    skos:prefLabel "13 - 20" .
+
+<http://iuss-wrb.github.io/wrb#Ranges-of-rH-values/R4> a skos:Concept ;
+    skos:definition "Redox reactions of Fe" ;
+    skos:inScheme wrb:Ranges-of-rH-values ;
+    skos:notation "R4" ;
+    skos:prefLabel "temporally < 20" .
+
+<http://iuss-wrb.github.io/wrb#Ranges-of-rH-values/R5> a skos:Concept ;
+    skos:definition "Redox reactions of Mn" ;
+    skos:inScheme wrb:Ranges-of-rH-values ;
+    skos:notation "R5" ;
+    skos:prefLabel "temporally 20 - 29" .
+
+<http://iuss-wrb.github.io/wrb#Ranges-of-rH-values/R6> a skos:Concept ;
+    skos:definition "Strongly aerated" ;
+    skos:inScheme wrb:Ranges-of-rH-values ;
+    skos:notation "R6" ;
+    skos:prefLabel "> 33, 29 - 33" .
+
+<http://iuss-wrb.github.io/wrb#Remnants-of-broken-up-cemented-layers-cementing-agent/CA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Remnants-of-broken-up-cemented-layers-cementing-agent ;
+    skos:notation "CA" ;
+    skos:prefLabel "Secondary carbonates" .
+
+<http://iuss-wrb.github.io/wrb#Remnants-of-broken-up-cemented-layers-cementing-agent/FH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Remnants-of-broken-up-cemented-layers-cementing-agent ;
+    skos:notation "FH" ;
+    skos:prefLabel "Fe oxides in the presence of a significant concentration of organic matter" .
+
+<http://iuss-wrb.github.io/wrb#Remnants-of-broken-up-cemented-layers-cementing-agent/FI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Remnants-of-broken-up-cemented-layers-cementing-agent ;
+    skos:notation "FI" ;
+    skos:prefLabel "Fe oxides, predominantly inside (former) soil aggregates, no significant concentration of organic matter" .
+
+<http://iuss-wrb.github.io/wrb#Remnants-of-broken-up-cemented-layers-cementing-agent/FN> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Remnants-of-broken-up-cemented-layers-cementing-agent ;
+    skos:notation "FN" ;
+    skos:prefLabel "Fe oxides, no relationship to (former) soil aggregates, no significant concentration of organic matter" .
+
+<http://iuss-wrb.github.io/wrb#Remnants-of-broken-up-cemented-layers-cementing-agent/FO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Remnants-of-broken-up-cemented-layers-cementing-agent ;
+    skos:notation "FO" ;
+    skos:prefLabel "Fe oxides, predominantly on the surfaces of (former) soil aggregates, no significant concentration of organic matter" .
+
+<http://iuss-wrb.github.io/wrb#Remnants-of-broken-up-cemented-layers-cementing-agent/GY> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Remnants-of-broken-up-cemented-layers-cementing-agent ;
+    skos:notation "GY" ;
+    skos:prefLabel "Secondary gypsum" .
+
+<http://iuss-wrb.github.io/wrb#Remnants-of-broken-up-cemented-layers-cementing-agent/SI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Remnants-of-broken-up-cemented-layers-cementing-agent ;
+    skos:notation "SI" ;
+    skos:prefLabel "Secondary silica" .
+
+<http://iuss-wrb.github.io/wrb#Retarded-reaction-with-HCl/H> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Retarded-reaction-with-HCl ;
+    skos:notation "H" ;
+    skos:prefLabel "Reaction with 1 M HCl only after heating" .
+
+<http://iuss-wrb.github.io/wrb#Retarded-reaction-with-HCl/I> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Retarded-reaction-with-HCl ;
+    skos:notation "I" ;
+    skos:prefLabel "Reaction with 1 M HCl immediate" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-dry/EH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-dry ;
+    skos:notation "EH" ;
+    skos:prefLabel "Extremely hard" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-dry/HA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-dry ;
+    skos:notation "HA" ;
+    skos:prefLabel "Hard" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-dry/LO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-dry ;
+    skos:notation "LO" ;
+    skos:prefLabel "Loose" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-dry/MH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-dry ;
+    skos:notation "MH" ;
+    skos:prefLabel "Moderately hard" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-dry/RI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-dry ;
+    skos:notation "RI" ;
+    skos:prefLabel "Rigid" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-dry/SH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-dry ;
+    skos:notation "SH" ;
+    skos:prefLabel "Slightly hard" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-dry/SO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-dry ;
+    skos:notation "SO" ;
+    skos:prefLabel "Soft" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-dry/VH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-dry ;
+    skos:notation "VH" ;
+    skos:prefLabel "Very hard" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-dry/VR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-dry ;
+    skos:notation "VR" ;
+    skos:prefLabel "Very rigid" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-moist/EI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-moist ;
+    skos:notation "EI" ;
+    skos:prefLabel "Extremely firm" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-moist/FI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-moist ;
+    skos:notation "FI" ;
+    skos:prefLabel "Firm" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-moist/FR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-moist ;
+    skos:notation "FR" ;
+    skos:prefLabel "Friable" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-moist/LO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-moist ;
+    skos:notation "LO" ;
+    skos:prefLabel "Loose" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-moist/RI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-moist ;
+    skos:notation "RI" ;
+    skos:prefLabel "Rigid" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-moist/SR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-moist ;
+    skos:notation "SR" ;
+    skos:prefLabel "Slightly rigid" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-moist/VF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-moist ;
+    skos:notation "VF" ;
+    skos:prefLabel "Very friable" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-moist/VI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-moist ;
+    skos:notation "VI" ;
+    skos:prefLabel "Very firm" .
+
+<http://iuss-wrb.github.io/wrb#Rupture-resistence-class-moist/VR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Rupture-resistence-class-moist ;
+    skos:notation "VR" ;
+    skos:prefLabel "Very rigid" .
+
+<http://iuss-wrb.github.io/wrb#Sealing-agent-of-surface-crusts/BA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Sealing-agent-of-surface-crusts ;
+    skos:notation "BA" ;
+    skos:prefLabel "Biological, by algae" .
+
+<http://iuss-wrb.github.io/wrb#Sealing-agent-of-surface-crusts/BC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Sealing-agent-of-surface-crusts ;
+    skos:notation "BC" ;
+    skos:prefLabel "Biological, by cyanobacteria" .
+
+<http://iuss-wrb.github.io/wrb#Sealing-agent-of-surface-crusts/BF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Sealing-agent-of-surface-crusts ;
+    skos:notation "BF" ;
+    skos:prefLabel "Biological, by fungi" .
+
+<http://iuss-wrb.github.io/wrb#Sealing-agent-of-surface-crusts/BL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Sealing-agent-of-surface-crusts ;
+    skos:notation "BL" ;
+    skos:prefLabel "Biological, by lichens" .
+
+<http://iuss-wrb.github.io/wrb#Sealing-agent-of-surface-crusts/BM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Sealing-agent-of-surface-crusts ;
+    skos:notation "BM" ;
+    skos:prefLabel "Biological, by mosses" .
+
+<http://iuss-wrb.github.io/wrb#Sealing-agent-of-surface-crusts/CC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Sealing-agent-of-surface-crusts ;
+    skos:notation "CC" ;
+    skos:prefLabel "Chemical, by carbonates" .
+
+<http://iuss-wrb.github.io/wrb#Sealing-agent-of-surface-crusts/CG> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Sealing-agent-of-surface-crusts ;
+    skos:notation "CG" ;
+    skos:prefLabel "Chemical, by gypsum" .
+
+<http://iuss-wrb.github.io/wrb#Sealing-agent-of-surface-crusts/CR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Sealing-agent-of-surface-crusts ;
+    skos:notation "CR" ;
+    skos:prefLabel "Chemical, by readily soluble salts" .
+
+<http://iuss-wrb.github.io/wrb#Sealing-agent-of-surface-crusts/CS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Sealing-agent-of-surface-crusts ;
+    skos:notation "CS" ;
+    skos:prefLabel "Chemical, by silica" .
+
+<http://iuss-wrb.github.io/wrb#Sealing-agent-of-surface-crusts/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Sealing-agent-of-surface-crusts ;
+    skos:notation "NO" ;
+    skos:prefLabel "No crust present" .
+
+<http://iuss-wrb.github.io/wrb#Sealing-agent-of-surface-crusts/PD> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Sealing-agent-of-surface-crusts ;
+    skos:notation "PD" ;
+    skos:prefLabel "Physical, only when dry" .
+
+<http://iuss-wrb.github.io/wrb#Sealing-agent-of-surface-crusts/PP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Sealing-agent-of-surface-crusts ;
+    skos:notation "PP" ;
+    skos:prefLabel "Physical, permanent" .
+
+<http://iuss-wrb.github.io/wrb#Season-of-description/AU> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Season-of-description ;
+    skos:notation "AU" ;
+    skos:prefLabel "Autumn" .
+
+<http://iuss-wrb.github.io/wrb#Season-of-description/DS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Season-of-description ;
+    skos:notation "DS" ;
+    skos:prefLabel "Dry season" .
+
+<http://iuss-wrb.github.io/wrb#Season-of-description/NS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Season-of-description ;
+    skos:notation "NS" ;
+    skos:prefLabel "No significant seasonality for plant growth" .
+
+<http://iuss-wrb.github.io/wrb#Season-of-description/SP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Season-of-description ;
+    skos:notation "SP" ;
+    skos:prefLabel "Spring" .
+
+<http://iuss-wrb.github.io/wrb#Season-of-description/SU> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Season-of-description ;
+    skos:notation "SU" ;
+    skos:prefLabel "Summer" .
+
+<http://iuss-wrb.github.io/wrb#Season-of-description/WI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Season-of-description ;
+    skos:notation "WI" ;
+    skos:prefLabel "Winter" .
+
+<http://iuss-wrb.github.io/wrb#Season-of-description/WS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Season-of-description ;
+    skos:notation "WS" ;
+    skos:prefLabel "Wet season" .
+
+<http://iuss-wrb.github.io/wrb#Shape-of-layer-boundaries/B> a skos:Concept ;
+    skos:definition "Discontinuous" ;
+    skos:inScheme wrb:Shape-of-layer-boundaries ;
+    skos:notation "B" ;
+    skos:prefLabel "Broken" .
+
+<http://iuss-wrb.github.io/wrb#Shape-of-layer-boundaries/I> a skos:Concept ;
+    skos:definition "Pockets more deep than wide" ;
+    skos:inScheme wrb:Shape-of-layer-boundaries ;
+    skos:notation "I" ;
+    skos:prefLabel "Irregular" .
+
+<http://iuss-wrb.github.io/wrb#Shape-of-layer-boundaries/S> a skos:Concept ;
+    skos:definition "Nearly plane surface" ;
+    skos:inScheme wrb:Shape-of-layer-boundaries ;
+    skos:notation "S" ;
+    skos:prefLabel "Smooth" .
+
+<http://iuss-wrb.github.io/wrb#Shape-of-layer-boundaries/W> a skos:Concept ;
+    skos:definition "Pockets less deep than wide" ;
+    skos:inScheme wrb:Shape-of-layer-boundaries ;
+    skos:notation "W" ;
+    skos:prefLabel "Wavy" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/BA> a skos:Concept ;
+    skos:definition "Angular" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "BA" ;
+    skos:prefLabel "Boulders" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/BB> a skos:Concept ;
+    skos:definition "Rounded and angular" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "BB" ;
+    skos:prefLabel "Boulders" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/BR> a skos:Concept ;
+    skos:definition "Rounded" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "BR" ;
+    skos:prefLabel "Boulders" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/CA> a skos:Concept ;
+    skos:definition "Angular" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "CA" ;
+    skos:prefLabel "Coarse gravel" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/CB> a skos:Concept ;
+    skos:definition "Rounded and angular" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "CB" ;
+    skos:prefLabel "Coarse gravel" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/CR> a skos:Concept ;
+    skos:definition "Rounded" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "CR" ;
+    skos:prefLabel "Coarse gravel" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/FA> a skos:Concept ;
+    skos:definition "Angular" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "FA" ;
+    skos:prefLabel "Fine gravel" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/FB> a skos:Concept ;
+    skos:definition "Rounded and angular" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "FB" ;
+    skos:prefLabel "Fine gravel" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/FR> a skos:Concept ;
+    skos:definition "Rounded" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "FR" ;
+    skos:prefLabel "Fine gravel" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/LA> a skos:Concept ;
+    skos:definition "Angular" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "LA" ;
+    skos:prefLabel "Large boulders" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/LB> a skos:Concept ;
+    skos:definition "Rounded and angular" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "LB" ;
+    skos:prefLabel "Large boulders" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/LR> a skos:Concept ;
+    skos:definition "Rounded" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "LR" ;
+    skos:prefLabel "Large boulders" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/MA> a skos:Concept ;
+    skos:definition "Angular" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "MA" ;
+    skos:prefLabel "Medium gravel" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/MB> a skos:Concept ;
+    skos:definition "Rounded and angular" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "MB" ;
+    skos:prefLabel "Medium gravel" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/MR> a skos:Concept ;
+    skos:definition "Rounded" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "MR" ;
+    skos:prefLabel "Medium gravel" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "NO" ;
+    skos:prefLabel "None" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/SA> a skos:Concept ;
+    skos:definition "Angular" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "SA" ;
+    skos:prefLabel "Stones" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/SB> a skos:Concept ;
+    skos:definition "Rounded and angular" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "SB" ;
+    skos:prefLabel "Stones" .
+
+<http://iuss-wrb.github.io/wrb#Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers/SR> a skos:Concept ;
+    skos:definition "Rounded" ;
+    skos:inScheme wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers ;
+    skos:notation "SR" ;
+    skos:prefLabel "Stones" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-artefacts/B> a skos:Concept ;
+    skos:definition "> 20 - 60" ;
+    skos:inScheme wrb:Size-of-artefacts ;
+    skos:notation "B" ;
+    skos:prefLabel "Boulders" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-artefacts/C> a skos:Concept ;
+    skos:definition "> 2 - 6" ;
+    skos:inScheme wrb:Size-of-artefacts ;
+    skos:notation "C" ;
+    skos:prefLabel "Coarse gravel" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-artefacts/E> a skos:Concept ;
+    skos:definition "≤ 0.2" ;
+    skos:inScheme wrb:Size-of-artefacts ;
+    skos:notation "E" ;
+    skos:prefLabel "Fine earth" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-artefacts/F> a skos:Concept ;
+    skos:definition "> 0.2 - 0.6" ;
+    skos:inScheme wrb:Size-of-artefacts ;
+    skos:notation "F" ;
+    skos:prefLabel "Fine gravel" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-artefacts/L> a skos:Concept ;
+    skos:definition "> 60" ;
+    skos:inScheme wrb:Size-of-artefacts ;
+    skos:notation "L" ;
+    skos:prefLabel "Large boulders" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-artefacts/M> a skos:Concept ;
+    skos:definition "> 0.6 - 2" ;
+    skos:inScheme wrb:Size-of-artefacts ;
+    skos:notation "M" ;
+    skos:prefLabel "Medium gravel" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-artefacts/S> a skos:Concept ;
+    skos:definition "> 6 - 20" ;
+    skos:inScheme wrb:Size-of-artefacts ;
+    skos:notation "S" ;
+    skos:prefLabel "Stones" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-durinodes-and-remnants-of-a-layer-that-has-been-cemented-by-secondary-silica/CO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Size-of-durinodes-and-remnants-of-a-layer-that-has-been-cemented-by-secondary-silica ;
+    skos:notation "CO" ;
+    skos:prefLabel "Coarse" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-durinodes-and-remnants-of-a-layer-that-has-been-cemented-by-secondary-silica/FI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Size-of-durinodes-and-remnants-of-a-layer-that-has-been-cemented-by-secondary-silica ;
+    skos:notation "FI" ;
+    skos:prefLabel "Fine" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-durinodes-and-remnants-of-a-layer-that-has-been-cemented-by-secondary-silica/ME> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Size-of-durinodes-and-remnants-of-a-layer-that-has-been-cemented-by-secondary-silica ;
+    skos:notation "ME" ;
+    skos:prefLabel "Medium" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-durinodes-and-remnants-of-a-layer-that-has-been-cemented-by-secondary-silica/VC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Size-of-durinodes-and-remnants-of-a-layer-that-has-been-cemented-by-secondary-silica ;
+    skos:notation "VC" ;
+    skos:prefLabel "Very coarse" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-durinodes-and-remnants-of-a-layer-that-has-been-cemented-by-secondary-silica/VF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Size-of-durinodes-and-remnants-of-a-layer-that-has-been-cemented-by-secondary-silica ;
+    skos:notation "VF" ;
+    skos:prefLabel "Very fine" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-lithogenic-variegates/C> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Size-of-lithogenic-variegates ;
+    skos:notation "C" ;
+    skos:prefLabel "Coarse" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-lithogenic-variegates/F> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Size-of-lithogenic-variegates ;
+    skos:notation "F" ;
+    skos:prefLabel "Fine" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-lithogenic-variegates/M> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Size-of-lithogenic-variegates ;
+    skos:notation "M" ;
+    skos:prefLabel "Medium" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-lithogenic-variegates/V> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Size-of-lithogenic-variegates ;
+    skos:notation "V" ;
+    skos:prefLabel "Very fine" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-oximorphic-features/CO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Size-of-oximorphic-features ;
+    skos:notation "CO" ;
+    skos:prefLabel "Coarse" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-oximorphic-features/FI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Size-of-oximorphic-features ;
+    skos:notation "FI" ;
+    skos:prefLabel "Fine" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-oximorphic-features/ME> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Size-of-oximorphic-features ;
+    skos:notation "ME" ;
+    skos:prefLabel "Medium" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-oximorphic-features/VC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Size-of-oximorphic-features ;
+    skos:notation "VC" ;
+    skos:prefLabel "Very coarse" .
+
+<http://iuss-wrb.github.io/wrb#Size-of-oximorphic-features/VF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Size-of-oximorphic-features ;
+    skos:notation "VF" ;
+    skos:prefLabel "Very fine" .
+
+<http://iuss-wrb.github.io/wrb#Slope-Shape/CC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Slope-Shape ;
+    skos:notation "CC" ;
+    skos:prefLabel "convex/convex" .
+
+<http://iuss-wrb.github.io/wrb#Slope-Shape/CL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Slope-Shape ;
+    skos:notation "CL" ;
+    skos:prefLabel "convex/linear" .
+
+<http://iuss-wrb.github.io/wrb#Slope-Shape/CV> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Slope-Shape ;
+    skos:notation "CV" ;
+    skos:prefLabel "concave/convex" .
+
+<http://iuss-wrb.github.io/wrb#Slope-Shape/LC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Slope-Shape ;
+    skos:notation "LC" ;
+    skos:prefLabel "linear/convex" .
+
+<http://iuss-wrb.github.io/wrb#Slope-Shape/LL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Slope-Shape ;
+    skos:notation "LL" ;
+    skos:prefLabel "linear/linear" .
+
+<http://iuss-wrb.github.io/wrb#Slope-Shape/LV> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Slope-Shape ;
+    skos:notation "LV" ;
+    skos:prefLabel "linear/concave" .
+
+<http://iuss-wrb.github.io/wrb#Slope-Shape/VC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Slope-Shape ;
+    skos:notation "VC" ;
+    skos:prefLabel "concave/convex" .
+
+<http://iuss-wrb.github.io/wrb#Slope-Shape/VL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Slope-Shape ;
+    skos:notation "VL" ;
+    skos:prefLabel "concave/linear" .
+
+<http://iuss-wrb.github.io/wrb#Slope-Shape/VV> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Slope-Shape ;
+    skos:notation "VV" ;
+    skos:prefLabel "concave/concave" .
+
+<http://iuss-wrb.github.io/wrb#Spatial-arrangement-of-surface-cracks/N> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Spatial-arrangement-of-surface-cracks ;
+    skos:notation "N" ;
+    skos:prefLabel "Non-polygonal" .
+
+<http://iuss-wrb.github.io/wrb#Spatial-arrangement-of-surface-cracks/P> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Spatial-arrangement-of-surface-cracks ;
+    skos:notation "P" ;
+    skos:prefLabel "Polygonal" .
+
+<http://iuss-wrb.github.io/wrb#Special-techniques-to-enhance-site-productivity/CW> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Special-techniques-to-enhance-site-productivity ;
+    skos:notation "CW" ;
+    skos:prefLabel "Wet cultivation" .
+
+<http://iuss-wrb.github.io/wrb#Special-techniques-to-enhance-site-productivity/DC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Special-techniques-to-enhance-site-productivity ;
+    skos:notation "DC" ;
+    skos:prefLabel "Drainage by open canals" .
+
+<http://iuss-wrb.github.io/wrb#Special-techniques-to-enhance-site-productivity/DU> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Special-techniques-to-enhance-site-productivity ;
+    skos:notation "DU" ;
+    skos:prefLabel "Underground drainage" .
+
+<http://iuss-wrb.github.io/wrb#Special-techniques-to-enhance-site-productivity/HT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Special-techniques-to-enhance-site-productivity ;
+    skos:notation "HT" ;
+    skos:prefLabel "Human-made terraces" .
+
+<http://iuss-wrb.github.io/wrb#Special-techniques-to-enhance-site-productivity/IR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Special-techniques-to-enhance-site-productivity ;
+    skos:notation "IR" ;
+    skos:prefLabel "Irrigation" .
+
+<http://iuss-wrb.github.io/wrb#Special-techniques-to-enhance-site-productivity/LO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Special-techniques-to-enhance-site-productivity ;
+    skos:notation "LO" ;
+    skos:prefLabel "Local raise of land surface" .
+
+<http://iuss-wrb.github.io/wrb#Special-techniques-to-enhance-site-productivity/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Special-techniques-to-enhance-site-productivity ;
+    skos:notation "NO" ;
+    skos:prefLabel "None" .
+
+<http://iuss-wrb.github.io/wrb#Special-techniques-to-enhance-site-productivity/OT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Special-techniques-to-enhance-site-productivity ;
+    skos:notation "OT" ;
+    skos:prefLabel "Other" .
+
+<http://iuss-wrb.github.io/wrb#Special-techniques-to-enhance-site-productivity/RB> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Special-techniques-to-enhance-site-productivity ;
+    skos:notation "RB" ;
+    skos:prefLabel "Raised beds" .
+
+<http://iuss-wrb.github.io/wrb#Subdivisions-of-the-Oa-horizon/CO> a skos:Concept ;
+    skos:definition "Breaks into longitudinal pieces with unsharp edges" ;
+    skos:inScheme wrb:Subdivisions-of-the-Oa-horizon ;
+    skos:notation "CO" ;
+    skos:prefLabel "Compact" .
+
+<http://iuss-wrb.github.io/wrb#Subdivisions-of-the-Oa-horizon/CR> a skos:Concept ;
+    skos:definition "Breaks into crumbly pieces or breaks powdery" ;
+    skos:inScheme wrb:Subdivisions-of-the-Oa-horizon ;
+    skos:notation "CR" ;
+    skos:prefLabel "Crumbly" .
+
+<http://iuss-wrb.github.io/wrb#Subdivisions-of-the-Oa-horizon/SE> a skos:Concept ;
+    skos:definition "Breaks into longitudinal pieces with sharp edges" ;
+    skos:inScheme wrb:Subdivisions-of-the-Oa-horizon ;
+    skos:notation "SE" ;
+    skos:prefLabel "Sharp-edged" .
+
+<http://iuss-wrb.github.io/wrb#Substance-of-oximorphic-and-reductimorphic-features/AS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substance-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "AS" ;
+    skos:prefLabel "Fe and Al sulfates (not specified)" .
+
+<http://iuss-wrb.github.io/wrb#Substance-of-oximorphic-and-reductimorphic-features/FE> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substance-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "FE" ;
+    skos:prefLabel "Fe oxides" .
+
+<http://iuss-wrb.github.io/wrb#Substance-of-oximorphic-and-reductimorphic-features/FM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substance-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "FM" ;
+    skos:prefLabel "Fe and Mn oxides" .
+
+<http://iuss-wrb.github.io/wrb#Substance-of-oximorphic-and-reductimorphic-features/FS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substance-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "FS" ;
+    skos:prefLabel "Fe sulfides" .
+
+<http://iuss-wrb.github.io/wrb#Substance-of-oximorphic-and-reductimorphic-features/JA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substance-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "JA" ;
+    skos:prefLabel "Jarosite" .
+
+<http://iuss-wrb.github.io/wrb#Substance-of-oximorphic-and-reductimorphic-features/MN> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substance-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "MN" ;
+    skos:prefLabel "Mn oxides" .
+
+<http://iuss-wrb.github.io/wrb#Substance-of-oximorphic-and-reductimorphic-features/NV> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substance-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "NV" ;
+    skos:prefLabel "No visible accumulation" .
+
+<http://iuss-wrb.github.io/wrb#Substance-of-oximorphic-and-reductimorphic-features/SM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substance-of-oximorphic-and-reductimorphic-features ;
+    skos:notation "SM" ;
+    skos:prefLabel "Schwertmannite" .
+
+<http://iuss-wrb.github.io/wrb#Substances-of-ribbon-like-accumulations/CC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substances-of-ribbon-like-accumulations ;
+    skos:notation "CC" ;
+    skos:prefLabel "Clay minerals" .
+
+<http://iuss-wrb.github.io/wrb#Substances-of-ribbon-like-accumulations/CH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substances-of-ribbon-like-accumulations ;
+    skos:notation "CH" ;
+    skos:prefLabel "Clay minerals and organic matter" .
+
+<http://iuss-wrb.github.io/wrb#Substances-of-ribbon-like-accumulations/CO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substances-of-ribbon-like-accumulations ;
+    skos:notation "CO" ;
+    skos:prefLabel "Clay minerals and Fe oxides and/or Mn oxides" .
+
+<http://iuss-wrb.github.io/wrb#Substances-of-ribbon-like-accumulations/HH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substances-of-ribbon-like-accumulations ;
+    skos:notation "HH" ;
+    skos:prefLabel "Organic matter" .
+
+<http://iuss-wrb.github.io/wrb#Substances-of-ribbon-like-accumulations/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substances-of-ribbon-like-accumulations ;
+    skos:notation "NO" ;
+    skos:prefLabel "No ribbon-like accumulations" .
+
+<http://iuss-wrb.github.io/wrb#Substances-of-ribbon-like-accumulations/OH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substances-of-ribbon-like-accumulations ;
+    skos:notation "OH" ;
+    skos:prefLabel "Fe oxides and/or Mn oxides and organic matter" .
+
+<http://iuss-wrb.github.io/wrb#Substances-of-ribbon-like-accumulations/OO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substances-of-ribbon-like-accumulations ;
+    skos:notation "OO" ;
+    skos:prefLabel "Fe oxides and/or Mn oxides" .
+
+<http://iuss-wrb.github.io/wrb#Substances-of-ribbon-like-accumulations/TO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Substances-of-ribbon-like-accumulations ;
+    skos:notation "TO" ;
+    skos:prefLabel "Clay minerals, Fe oxides and/or Mn oxides and organic matter" .
+
+<http://iuss-wrb.github.io/wrb#Surface-cracks/FI> a skos:Concept ;
+    skos:definition "> 1 - 2" ;
+    skos:inScheme wrb:Surface-cracks ;
+    skos:notation "FI" ;
+    skos:prefLabel "Fine" .
+
+<http://iuss-wrb.github.io/wrb#Surface-cracks/ME> a skos:Concept ;
+    skos:definition "> 2 - 5" ;
+    skos:inScheme wrb:Surface-cracks ;
+    skos:notation "ME" ;
+    skos:prefLabel "Medium" .
+
+<http://iuss-wrb.github.io/wrb#Surface-cracks/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Surface-cracks ;
+    skos:notation "NO" ;
+    skos:prefLabel "No surface cracks" .
+
+<http://iuss-wrb.github.io/wrb#Surface-cracks/VF> a skos:Concept ;
+    skos:definition "≤ 1" ;
+    skos:inScheme wrb:Surface-cracks ;
+    skos:notation "VF" ;
+    skos:prefLabel "Very fine" .
+
+<http://iuss-wrb.github.io/wrb#Surface-cracks/VW> a skos:Concept ;
+    skos:definition "> 10" ;
+    skos:inScheme wrb:Surface-cracks ;
+    skos:notation "VW" ;
+    skos:prefLabel "Very wide" .
+
+<http://iuss-wrb.github.io/wrb#Surface-cracks/WI> a skos:Concept ;
+    skos:definition "> 5 - 10" ;
+    skos:inScheme wrb:Surface-cracks ;
+    skos:notation "WI" ;
+    skos:prefLabel "Wide" .
+
+<http://iuss-wrb.github.io/wrb#Surface-unevenness-caused-by-erosion/AO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Surface-unevenness-caused-by-erosion ;
+    skos:notation "AO" ;
+    skos:prefLabel "Other types of wind erosion" .
+
+<http://iuss-wrb.github.io/wrb#Surface-unevenness-caused-by-erosion/AS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Surface-unevenness-caused-by-erosion ;
+    skos:notation "AS" ;
+    skos:prefLabel "Shifting sands" .
+
+<http://iuss-wrb.github.io/wrb#Surface-unevenness-caused-by-erosion/MM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Surface-unevenness-caused-by-erosion ;
+    skos:notation "MM" ;
+    skos:prefLabel "Mass movement (landslides and similar phenomena)" .
+
+<http://iuss-wrb.github.io/wrb#Surface-unevenness-caused-by-erosion/NC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Surface-unevenness-caused-by-erosion ;
+    skos:notation "NC" ;
+    skos:prefLabel "Erosion, not categorized" .
+
+<http://iuss-wrb.github.io/wrb#Surface-unevenness-caused-by-erosion/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Surface-unevenness-caused-by-erosion ;
+    skos:notation "NO" ;
+    skos:prefLabel "No evidence of erosion" .
+
+<http://iuss-wrb.github.io/wrb#Surface-unevenness-caused-by-erosion/WA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Surface-unevenness-caused-by-erosion ;
+    skos:notation "WA" ;
+    skos:prefLabel "Water and aeolian (wind) erosion" .
+
+<http://iuss-wrb.github.io/wrb#Surface-unevenness-caused-by-erosion/WG> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Surface-unevenness-caused-by-erosion ;
+    skos:notation "WG" ;
+    skos:prefLabel "Gully erosion" .
+
+<http://iuss-wrb.github.io/wrb#Surface-unevenness-caused-by-erosion/WR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Surface-unevenness-caused-by-erosion ;
+    skos:notation "WR" ;
+    skos:prefLabel "Rill erosion" .
+
+<http://iuss-wrb.github.io/wrb#Surface-unevenness-caused-by-erosion/WS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Surface-unevenness-caused-by-erosion ;
+    skos:notation "WS" ;
+    skos:prefLabel "Sheet erosion" .
+
+<http://iuss-wrb.github.io/wrb#Surface-unevenness-caused-by-erosion/WT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Surface-unevenness-caused-by-erosion ;
+    skos:notation "WT" ;
+    skos:prefLabel "Tunnel erosion" .
+
+<http://iuss-wrb.github.io/wrb#Susceptibility-for-cementation/CW> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Susceptibility-for-cementation ;
+    skos:notation "CW" ;
+    skos:prefLabel "Cementation after repeated drying and wetting" .
+
+<http://iuss-wrb.github.io/wrb#Susceptibility-for-cementation/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Susceptibility-for-cementation ;
+    skos:notation "NO" ;
+    skos:prefLabel "No cementation after repeated drying and wetting" .
+
+<http://iuss-wrb.github.io/wrb#Technical-surface-alterations/LV> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Technical-surface-alterations ;
+    skos:notation "LV" ;
+    skos:prefLabel "Levelling" .
+
+<http://iuss-wrb.github.io/wrb#Technical-surface-alterations/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Technical-surface-alterations ;
+    skos:notation "NO" ;
+    skos:prefLabel "None" .
+
+<http://iuss-wrb.github.io/wrb#Technical-surface-alterations/OT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Technical-surface-alterations ;
+    skos:notation "OT" ;
+    skos:prefLabel "Other" .
+
+<http://iuss-wrb.github.io/wrb#Technical-surface-alterations/SA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Technical-surface-alterations ;
+    skos:notation "SA" ;
+    skos:prefLabel "Sealing by asphalt" .
+
+<http://iuss-wrb.github.io/wrb#Technical-surface-alterations/SC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Technical-surface-alterations ;
+    skos:notation "SC" ;
+    skos:prefLabel "Sealing by concrete" .
+
+<http://iuss-wrb.github.io/wrb#Technical-surface-alterations/SO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Technical-surface-alterations ;
+    skos:notation "SO" ;
+    skos:prefLabel "Other types of sealing" .
+
+<http://iuss-wrb.github.io/wrb#Technical-surface-alterations/TR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Technical-surface-alterations ;
+    skos:notation "TR" ;
+    skos:prefLabel "Topsoil removal" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/C> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "C" ;
+    skos:prefLabel "Clay" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/CL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "CL" ;
+    skos:prefLabel "Clay loam" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/L> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "L" ;
+    skos:prefLabel "Loam" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/LCS> a skos:Concept ;
+    skos:definition "",
+        "Loamy coarse sand" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "LCS" ;
+    skos:prefLabel "Loamy coarse sand",
+        "Loamy sand" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/LFS> a skos:Concept ;
+    skos:definition "",
+        "Loamy fine sand" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "LFS" ;
+    skos:prefLabel "Loamy fine sand",
+        "Loamy sand" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/LMS> a skos:Concept ;
+    skos:definition "",
+        "Loamy medium sand" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "LMS" ;
+    skos:prefLabel "Loamy medium sand",
+        "Loamy sand" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/LS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "LS" ;
+    skos:prefLabel "Loamy sand" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/LVFS> a skos:Concept ;
+    skos:definition "",
+        "Loamy very fine sand" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "LVFS" ;
+    skos:prefLabel "Loamy sand",
+        "Loamy very fine sand" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/S> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "S" ;
+    skos:prefLabel "Sand" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/SC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "SC" ;
+    skos:prefLabel "Sandy clay" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/SCL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "SCL" ;
+    skos:prefLabel "Sandy clay loam" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/SL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "SL" ;
+    skos:prefLabel "Sandy loam" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/Si> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "Si" ;
+    skos:prefLabel "Silt" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/SiC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "SiC" ;
+    skos:prefLabel "Silty clay" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/SiCL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "SiCL" ;
+    skos:prefLabel "Silty clay loam" .
+
+<http://iuss-wrb.github.io/wrb#Texture-classes/SiL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Texture-classes ;
+    skos:notation "SiL" ;
+    skos:prefLabel "Silt loam" .
+
+<http://iuss-wrb.github.io/wrb#Thixotropy-and-NaF-field-test/NF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Thixotropy-and-NaF-field-test ;
+    skos:notation "NF" ;
+    skos:prefLabel "Positive NaF test" .
+
+<http://iuss-wrb.github.io/wrb#Thixotropy-and-NaF-field-test/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Thixotropy-and-NaF-field-test ;
+    skos:notation "NO" ;
+    skos:prefLabel "None of the above" .
+
+<http://iuss-wrb.github.io/wrb#Thixotropy-and-NaF-field-test/NT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Thixotropy-and-NaF-field-test ;
+    skos:notation "NT" ;
+    skos:prefLabel "Positive NaF test and thixotropy" .
+
+<http://iuss-wrb.github.io/wrb#Thixotropy-and-NaF-field-test/TH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Thixotropy-and-NaF-field-test ;
+    skos:notation "TH" ;
+    skos:prefLabel "Thixotropy" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-accumulation-of-organic-matter/BC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-accumulation-of-organic-matter ;
+    skos:notation "BC" ;
+    skos:prefLabel "Black carbon (e.g. charcoal, partly charred particles, soot))" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-accumulation-of-organic-matter/BU> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-accumulation-of-organic-matter ;
+    skos:notation "BU" ;
+    skos:prefLabel "Filled earthworm burrows" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-accumulation-of-organic-matter/CO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-accumulation-of-organic-matter ;
+    skos:notation "CO" ;
+    skos:prefLabel "Organic matter coatings at surfaces of soil aggregates and biopore walls (no visible other material in the coatings)" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-accumulation-of-organic-matter/KR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-accumulation-of-organic-matter ;
+    skos:notation "KR" ;
+    skos:prefLabel "Filled krotowinas" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-accumulation-of-organic-matter/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-accumulation-of-organic-matter ;
+    skos:notation "NO" ;
+    skos:prefLabel "No visible accumulation of organic matter" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-animal-activity/BA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-animal-activity ;
+    skos:notation "BA" ;
+    skos:prefLabel "Bird act. - Bones, feathers, sorted gravel of similar size" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-animal-activity/BU> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-animal-activity ;
+    skos:notation "BU" ;
+    skos:prefLabel "Burrows (unspecified)" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-animal-activity/IA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-animal-activity ;
+    skos:notation "IA" ;
+    skos:prefLabel "Ant channels and nests" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-animal-activity/IO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-animal-activity ;
+    skos:notation "IO" ;
+    skos:prefLabel "Other insect activity" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-animal-activity/IT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-animal-activity ;
+    skos:notation "IT" ;
+    skos:prefLabel "Termite channels and nests" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-animal-activity/MI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-animal-activity ;
+    skos:notation "MI" ;
+    skos:prefLabel "Mammal infilled large burrows (krotovinas)" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-animal-activity/MO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-animal-activity ;
+    skos:notation "MO" ;
+    skos:prefLabel "Mammal open large burrows" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-animal-activity/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-animal-activity ;
+    skos:notation "NO" ;
+    skos:prefLabel "No visible results of animal activity" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-animal-activity/WC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-animal-activity ;
+    skos:notation "WC" ;
+    skos:prefLabel "Worm activity - Worm casts" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-animal-activity/WE> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-animal-activity ;
+    skos:notation "WE" ;
+    skos:prefLabel "Worm activity - Earthworm channels" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-manner-of-failure-brittleness/BR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-manner-of-failure-brittleness ;
+    skos:notation "BR" ;
+    skos:prefLabel "Brittle" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-manner-of-failure-brittleness/DF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-manner-of-failure-brittleness ;
+    skos:notation "DF" ;
+    skos:prefLabel "Deformable" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-manner-of-failure-brittleness/SD> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-manner-of-failure-brittleness ;
+    skos:notation "SD" ;
+    skos:prefLabel "Semi-deformable" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-non-matrix-pores/DT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-non-matrix-pores ;
+    skos:notation "DT" ;
+    skos:prefLabel "Dendritic Tubular" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-non-matrix-pores/IG> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-non-matrix-pores ;
+    skos:notation "IG" ;
+    skos:prefLabel "Irregular" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-non-matrix-pores/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-non-matrix-pores ;
+    skos:notation "NO" ;
+    skos:prefLabel "No non-matrix pores" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-non-matrix-pores/TU> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-non-matrix-pores ;
+    skos:notation "TU" ;
+    skos:prefLabel "Tubular" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-non-matrix-pores/VE> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-non-matrix-pores ;
+    skos:notation "VE" ;
+    skos:prefLabel "Vesicular" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IF" ;
+    skos:prefLabel "Felsic igneous" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IF1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IF1" ;
+    skos:prefLabel "Granite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IF2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IF2" ;
+    skos:prefLabel "Quartz-diorite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IF3> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IF3" ;
+    skos:prefLabel "Grano-diorite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IF4> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IF4" ;
+    skos:prefLabel "Diorite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IF5> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IF5" ;
+    skos:prefLabel "Rhyolite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/II> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "II" ;
+    skos:prefLabel "Intermediate igneous" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/II1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "II1" ;
+    skos:prefLabel "Andesite, trachyte, phonolite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/II2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "II2" ;
+    skos:prefLabel "Diorite-syenite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IM" ;
+    skos:prefLabel "Mafic igneous" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IM1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IM1" ;
+    skos:prefLabel "Gabbro" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IM2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IM2" ;
+    skos:prefLabel "Basalt" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IM3> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IM3" ;
+    skos:prefLabel "Dolerite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IP" ;
+    skos:prefLabel "Pyroclastic" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IP1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IP1" ;
+    skos:prefLabel "Tuff, tuffite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IP2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IP2" ;
+    skos:prefLabel "Volcanic scoria/breccia" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IP3> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IP3" ;
+    skos:prefLabel "Volcanic ash" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IP4> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IP4" ;
+    skos:prefLabel "Ignimbrite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IU> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IU" ;
+    skos:prefLabel "Ultramafic igneous" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IU1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IU1" ;
+    skos:prefLabel "Peridotite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IU2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IU2" ;
+    skos:prefLabel "Pyroxenite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/IU3> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "IU3" ;
+    skos:prefLabel "Serpentinite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/MF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "MF" ;
+    skos:prefLabel "Felsic metamorphic" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/MF1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "MF1" ;
+    skos:prefLabel "Quartzite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/MF2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "MF2" ;
+    skos:prefLabel "Gneiss, migmatite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/MF3> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "MF3" ;
+    skos:prefLabel "Slate, phyllite (pelitic rocks)" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/MF4> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "MF4" ;
+    skos:prefLabel "Schist" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/MM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "MM" ;
+    skos:prefLabel "Mafic metamorphic" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/MM1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "MM1" ;
+    skos:prefLabel "Slate, phyllite (pelitic rocks)" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/MM2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "MM2" ;
+    skos:prefLabel "(Green)schist" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/MM3> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "MM3" ;
+    skos:prefLabel "Gneiss rich in Fe-Mg minerals" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/MM4> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "MM4" ;
+    skos:prefLabel "Metamorphic limestone (marble)" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/MM5> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "MM5" ;
+    skos:prefLabel "Amphibolite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/MM6> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "MM6" ;
+    skos:prefLabel "Eclogite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/MU> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "MU" ;
+    skos:prefLabel "Ultramafic metamorphic" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/MU1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "MU1" ;
+    skos:prefLabel "Serpentinite, greenstone" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/SC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "SC" ;
+    skos:prefLabel "Clastic sediments" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/SC1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "SC1" ;
+    skos:prefLabel "Conglomerate, breccia" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/SC2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "SC2" ;
+    skos:prefLabel "Sandstone, greywacke, arkose" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/SC3> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "SC3" ;
+    skos:prefLabel "Silt-, mud-, claystone" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/SC4> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "SC4" ;
+    skos:prefLabel "Shale" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/SC5> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "SC5" ;
+    skos:prefLabel "Ironstone" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/SE> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "SE" ;
+    skos:prefLabel "Evaporites" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/SE1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "SE1" ;
+    skos:prefLabel "Anhydrite, gypsum" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/SE2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "SE2" ;
+    skos:prefLabel "Halite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/SO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "SO" ;
+    skos:prefLabel "Carbonatic, organic" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/SO1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "SO1" ;
+    skos:prefLabel "Limestone, other carbonate rock" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/SO2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "SO2" ;
+    skos:prefLabel "Marl and other mixtures" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/SO3> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "SO3" ;
+    skos:prefLabel "Coals, bitumen and related rocks" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UA" ;
+    skos:prefLabel "Anthropogenic/ technogenic" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UA1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UA1" ;
+    skos:prefLabel "Redeposited natural material" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UA2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UA2" ;
+    skos:prefLabel "Industrial/artisanal deposits" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UC" ;
+    skos:prefLabel "Colluvial" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UC1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UC1" ;
+    skos:prefLabel "Slope deposits" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UC2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UC2" ;
+    skos:prefLabel "Lahar" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UC3> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UC3" ;
+    skos:prefLabel "Deposit of soil material" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UE> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UE" ;
+    skos:prefLabel "Aeolian" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UE1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UE1" ;
+    skos:prefLabel "Loess" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UE2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UE2" ;
+    skos:prefLabel "Sand" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UF" ;
+    skos:prefLabel "Fluvial" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UF1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UF1" ;
+    skos:prefLabel "Sand and gravel" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UF2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UF2" ;
+    skos:prefLabel "Clay, silt and loam" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UG> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UG" ;
+    skos:prefLabel "Glacial" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UG1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UG1" ;
+    skos:prefLabel "Moraine" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UG2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UG2" ;
+    skos:prefLabel "Glacio-fluvial sand" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UG3> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UG3" ;
+    skos:prefLabel "Glacio-fluvial gravel" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UK> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UK" ;
+    skos:prefLabel "Cryogenic" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UK1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UK1" ;
+    skos:prefLabel "Periglacial rock debris" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UK2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UK2" ;
+    skos:prefLabel "Periglacial solifluction layer" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UL" ;
+    skos:prefLabel "Lacustrine" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UL1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UL1" ;
+    skos:prefLabel "Sand" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UL2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UL2" ;
+    skos:prefLabel "Silt and clay, < 20% CaCO3 equivalent, little or no diatoms" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UL3> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UL3" ;
+    skos:prefLabel "Silt and clay, < 20% CaCO3 equivalent, many diatoms" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UL4> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UL4" ;
+    skos:prefLabel "Silt and clay, ≥ 20% CaCO3 equivalent (marl)" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UM" ;
+    skos:prefLabel "Marine, estuarine" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UM1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UM1" ;
+    skos:prefLabel "Sand" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UM2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UM2" ;
+    skos:prefLabel "Clay and silt" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UO" ;
+    skos:prefLabel "Organic" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UO1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UO1" ;
+    skos:prefLabel "Rainwater-fed peat (bog)" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UO2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UO2" ;
+    skos:prefLabel "Groundwater-fed peat (fen)" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UO3> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UO3" ;
+    skos:prefLabel "Lacustrine (organic limnic sediments)" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UR" ;
+    skos:prefLabel "Weathered residuum" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UR1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UR1" ;
+    skos:prefLabel "Bauxite, laterite" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UU> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UU" ;
+    skos:prefLabel "Unspecified deposits" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UU1> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UU1" ;
+    skos:prefLabel "Clay" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UU2> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UU2" ;
+    skos:prefLabel "Loam and silt" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UU3> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UU3" ;
+    skos:prefLabel "Sand" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UU4> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UU4" ;
+    skos:prefLabel "Gravelly sand" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-parent-material/UU5> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-parent-material ;
+    skos:notation "UU5" ;
+    skos:prefLabel "Gravel, broken rock" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-plasticity/MP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-plasticity ;
+    skos:notation "MP" ;
+    skos:prefLabel "Moderately plastic" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-plasticity/NP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-plasticity ;
+    skos:notation "NP" ;
+    skos:prefLabel "Non-plastic" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-plasticity/SP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-plasticity ;
+    skos:notation "SP" ;
+    skos:prefLabel "Slightly plastic" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-plasticity/VP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-plasticity ;
+    skos:notation "VP" ;
+    skos:prefLabel "Very plastic" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-secondary-carbonates/AS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-secondary-carbonates ;
+    skos:notation "AS" ;
+    skos:prefLabel "Coatings on soil aggregate surfaces or biopore walls" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-secondary-carbonates/FI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-secondary-carbonates ;
+    skos:notation "FI" ;
+    skos:prefLabel "Filaments (including continuous filaments like pseudomycelia)" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-secondary-carbonates/MA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-secondary-carbonates ;
+    skos:notation "MA" ;
+    skos:prefLabel "Masses (including spheroidal aggregations like white eyes (byeloglaska))" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-secondary-carbonates/NC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-secondary-carbonates ;
+    skos:notation "NC" ;
+    skos:prefLabel "Nodules and/or concretions" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-secondary-carbonates/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-secondary-carbonates ;
+    skos:notation "NO" ;
+    skos:prefLabel "No secondary carbonates" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-secondary-carbonates/UR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-secondary-carbonates ;
+    skos:notation "UR" ;
+    skos:prefLabel "Coatings on undersides of coarse fragments and of remnants of broken-up cemented layers" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-secondary-silica/CH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-secondary-silica ;
+    skos:notation "CH" ;
+    skos:prefLabel "Accumulations within a layer, cemented by secondary silica" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-secondary-silica/DN> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-secondary-silica ;
+    skos:notation "DN" ;
+    skos:prefLabel "Nodules (durinodes)" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-secondary-silica/FC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-secondary-silica ;
+    skos:notation "FC" ;
+    skos:prefLabel "Remnants of a layer that has been cemented by secondary silica" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-secondary-silica/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-secondary-silica ;
+    skos:notation "NO" ;
+    skos:prefLabel "No secondary silica" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-secondary-silica/OT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-secondary-silica ;
+    skos:notation "OT" ;
+    skos:prefLabel "Other accumulations" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/BA> a skos:Concept ;
+    skos:definition "Soil aggregate structure, natural" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "BA" ;
+    skos:prefLabel "Angular blocky" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/BS> a skos:Concept ;
+    skos:definition "Soil aggregate structure, natural" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "BS" ;
+    skos:prefLabel "Subangular blocky" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/CL> a skos:Concept ;
+    skos:definition "Artificial structural elements" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "CL" ;
+    skos:prefLabel "Cloddy" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/CO> a skos:Concept ;
+    skos:definition "Soil aggregate structure, natural" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "CO" ;
+    skos:prefLabel "Columnar" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/FE> a skos:Concept ;
+    skos:definition "Soil aggregate structure, natural" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "FE" ;
+    skos:prefLabel "Flat-edged" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/GR> a skos:Concept ;
+    skos:definition "Soil aggregate structure, natural" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "GR" ;
+    skos:prefLabel "Granular" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/LC> a skos:Concept ;
+    skos:definition "Soil aggregate structure, natural" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "LC" ;
+    skos:prefLabel "Lenticular" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/MR> a skos:Concept ;
+    skos:definition "No structural units, rock structure, inherited from the parent material, structure not changing with soil moisture, not or only slightly chemically weathered" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "MR" ;
+    skos:prefLabel "Massive" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/MS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "MS" ;
+    skos:prefLabel "No structural units, soil structure, present when moist and changing into soil aggregate structure when dry" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/MW> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "MW" ;
+    skos:prefLabel "No structural units, rock structure, inherited from the parent material, structure not changing with soil moisture, strongly chemically weathered (e.g. saprolite)" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/PH> a skos:Concept ;
+    skos:definition "Soil aggregate structure, natural" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "PH" ;
+    skos:prefLabel "Polyhedral" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/PL> a skos:Concept ;
+    skos:definition "Soil aggregate structure, natural or resulting from artificial pressure" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "PL" ;
+    skos:prefLabel "Platy" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/PR> a skos:Concept ;
+    skos:definition "Soil aggregate structure, natural" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "PR" ;
+    skos:prefLabel "Prismatic" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/PS> a skos:Concept ;
+    skos:definition "Soil aggregate structure, natural" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "PS" ;
+    skos:prefLabel "Pseudosand/Pseudosilt" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/SR> a skos:Concept ;
+    skos:definition "No structural units, rock structure, inherited from the parent material" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "SR" ;
+    skos:prefLabel "Single grain" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/SS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "SS" ;
+    skos:prefLabel "No structural units, soil structure, resulting from soil-forming processes, like loss of organic matter and/or oxides and/or clay minerals or loss of stratification" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/ST> a skos:Concept ;
+    skos:definition "No structural units, rock structure, visible stratification from sedimentation" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "ST" ;
+    skos:prefLabel "Stratified" .
+
+<http://iuss-wrb.github.io/wrb#Types-of-structure-formation/WE> a skos:Concept ;
+    skos:definition "Soil aggregate structure, natural" ;
+    skos:inScheme wrb:Types-of-structure-formation ;
+    skos:notation "WE" ;
+    skos:prefLabel "Wedge-shaped" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/AF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "AF" ;
+    skos:prefLabel "Algae: fresh or brackish" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/AH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "AH" ;
+    skos:prefLabel "Higher aquatic plants (woody or non-woody)" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/AM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "AM" ;
+    skos:prefLabel "Algae: marine" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/CR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "CR" ;
+    skos:prefLabel "Biological crust (of cyanobacteria, algae, fungi, lichens and/or mosses)" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/NF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "NF" ;
+    skos:prefLabel "Fungi" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/NG> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "NG" ;
+    skos:prefLabel "Grasses and/or herbs" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/NL> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "NL" ;
+    skos:prefLabel "Lichens" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/NM> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "NM" ;
+    skos:prefLabel "Mosses (non-peat)" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "NO" ;
+    skos:prefLabel "None (barren)" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/NP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "NP" ;
+    skos:prefLabel "Peat" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/WE> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "WE" ;
+    skos:prefLabel "Evergreen trees (mainly not planted)" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/WG> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "WG" ;
+    skos:prefLabel "Evergreen shrubs" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/WH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "WH" ;
+    skos:prefLabel "Heath or dwarf shrubs" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/WP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "WP" ;
+    skos:prefLabel "Plantation forest, not in rotation with cropland or grassland" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/WR> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "WR" ;
+    skos:prefLabel "Plantation forest, in rotation with cropland or grassland" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/WS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "WS" ;
+    skos:prefLabel "Seasonally green shrubs" .
+
+<http://iuss-wrb.github.io/wrb#Vegetation-type/WT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Vegetation-type ;
+    skos:notation "WT" ;
+    skos:prefLabel "Seasonally green trees (mainly not planted)" .
+
+<http://iuss-wrb.github.io/wrb#Water-above-the-soil-surface/FF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-above-the-soil-surface ;
+    skos:notation "FF" ;
+    skos:prefLabel "Submerged by remote flowing inland water at least once a year" .
+
+<http://iuss-wrb.github.io/wrb#Water-above-the-soil-surface/FO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-above-the-soil-surface ;
+    skos:notation "FO" ;
+    skos:prefLabel "Submerged by remote flowing inland water less than once a year" .
+
+<http://iuss-wrb.github.io/wrb#Water-above-the-soil-surface/FP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-above-the-soil-surface ;
+    skos:notation "FP" ;
+    skos:prefLabel "Permanently submerged by inland water" .
+
+<http://iuss-wrb.github.io/wrb#Water-above-the-soil-surface/GF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-above-the-soil-surface ;
+    skos:notation "GF" ;
+    skos:prefLabel "Submerged by rising local groundwater at least once a year" .
+
+<http://iuss-wrb.github.io/wrb#Water-above-the-soil-surface/GO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-above-the-soil-surface ;
+    skos:notation "GO" ;
+    skos:prefLabel "Submerged by rising local groundwater less than once a year" .
+
+<http://iuss-wrb.github.io/wrb#Water-above-the-soil-surface/MO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-above-the-soil-surface ;
+    skos:notation "MO" ;
+    skos:prefLabel "Occasional storm surges (above mean high water springs)" .
+
+<http://iuss-wrb.github.io/wrb#Water-above-the-soil-surface/MP> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-above-the-soil-surface ;
+    skos:notation "MP" ;
+    skos:prefLabel "Permanently submerged by seawater (below mean low water springs)" .
+
+<http://iuss-wrb.github.io/wrb#Water-above-the-soil-surface/MT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-above-the-soil-surface ;
+    skos:notation "MT" ;
+    skos:prefLabel "Tidal area (between mean low and mean high water springs)" .
+
+<http://iuss-wrb.github.io/wrb#Water-above-the-soil-surface/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-above-the-soil-surface ;
+    skos:notation "NO" ;
+    skos:prefLabel "None of the above" .
+
+<http://iuss-wrb.github.io/wrb#Water-above-the-soil-surface/RF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-above-the-soil-surface ;
+    skos:notation "RF" ;
+    skos:prefLabel "Submerged by local rainwater at least once a year" .
+
+<http://iuss-wrb.github.io/wrb#Water-above-the-soil-surface/RO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-above-the-soil-surface ;
+    skos:notation "RO" ;
+    skos:prefLabel "Submerged by local rainwater less than once a year" .
+
+<http://iuss-wrb.github.io/wrb#Water-above-the-soil-surface/UF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-above-the-soil-surface ;
+    skos:notation "UF" ;
+    skos:prefLabel "Submerged by inland water of unknown origin at least once a year" .
+
+<http://iuss-wrb.github.io/wrb#Water-above-the-soil-surface/UO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-above-the-soil-surface ;
+    skos:notation "UO" ;
+    skos:prefLabel "Submerged by inland water of unknown origin less than once a year" .
+
+<http://iuss-wrb.github.io/wrb#Water-repellence/N> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-repellence ;
+    skos:notation "N" ;
+    skos:prefLabel "Water infiltrates completely within < 60 seconds" .
+
+<http://iuss-wrb.github.io/wrb#Water-repellence/R> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-repellence ;
+    skos:notation "R" ;
+    skos:prefLabel "Water stands for ≥ 60 seconds" .
+
+<http://iuss-wrb.github.io/wrb#Water-saturation/GF> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-saturation ;
+    skos:notation "GF" ;
+    skos:prefLabel "Saturated by groundwater or flowing water for ≥ 30 consecutive days with water that has an electrical conductivity of < 4 dS m-1" .
+
+<http://iuss-wrb.github.io/wrb#Water-saturation/GS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-saturation ;
+    skos:notation "GS" ;
+    skos:prefLabel "Saturated by groundwater or flowing water for ≥ 30 consecutive days with water that has an electrical conductivity of ≥ 4 dS m-1" .
+
+<http://iuss-wrb.github.io/wrb#Water-saturation/MI> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-saturation ;
+    skos:notation "MI" ;
+    skos:prefLabel "Saturated by water from melted ice for ≥ 30 consecutive days" .
+
+<http://iuss-wrb.github.io/wrb#Water-saturation/MS> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-saturation ;
+    skos:notation "MS" ;
+    skos:prefLabel "Saturated by seawater for ≥ 30 consecutive days" .
+
+<http://iuss-wrb.github.io/wrb#Water-saturation/MT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-saturation ;
+    skos:notation "MT" ;
+    skos:prefLabel "Saturated by seawater according to tidal changes" .
+
+<http://iuss-wrb.github.io/wrb#Water-saturation/N> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-saturation ;
+    skos:notation "N" ;
+    skos:prefLabel "None of the above" .
+
+<http://iuss-wrb.github.io/wrb#Water-saturation/PW> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-saturation ;
+    skos:notation "PW" ;
+    skos:prefLabel "Pure water, covered by floating organic material" .
+
+<http://iuss-wrb.github.io/wrb#Water-saturation/RA> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Water-saturation ;
+    skos:notation "RA" ;
+    skos:prefLabel "Saturated by rainwater for ≥ 30 consecutive days" .
+
+<http://iuss-wrb.github.io/wrb#Weathering-stage-of-coarse-fragments/F> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Weathering-stage-of-coarse-fragments ;
+    skos:notation "F" ;
+    skos:prefLabel "Fresh" .
+
+<http://iuss-wrb.github.io/wrb#Weathering-stage-of-coarse-fragments/M> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Weathering-stage-of-coarse-fragments ;
+    skos:notation "M" ;
+    skos:prefLabel "Moderately weathered" .
+
+<http://iuss-wrb.github.io/wrb#Weathering-stage-of-coarse-fragments/S> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Weathering-stage-of-coarse-fragments ;
+    skos:notation "S" ;
+    skos:prefLabel "Strongly weathered" .
+
+<http://iuss-wrb.github.io/wrb#Wind-deposition/CB> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Wind-deposition ;
+    skos:notation "CB" ;
+    skos:prefLabel "Aeroturbation (cross-bedding)" .
+
+<http://iuss-wrb.github.io/wrb#Wind-deposition/NO> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Wind-deposition ;
+    skos:notation "NO" ;
+    skos:prefLabel "No evidence of wind deposition" .
+
+<http://iuss-wrb.github.io/wrb#Wind-deposition/OT> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Wind-deposition ;
+    skos:notation "OT" ;
+    skos:prefLabel "Other" .
+
+<http://iuss-wrb.github.io/wrb#Wind-deposition/RC> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Wind-deposition ;
+    skos:notation "RC" ;
+    skos:prefLabel "≥ 10% of the particles of medium sand or coarser are rounded or subangular and have a matt surface, but only in in-blown material that has filled cracks" .
+
+<http://iuss-wrb.github.io/wrb#Wind-deposition/RH> a skos:Concept ;
+    skos:definition "" ;
+    skos:inScheme wrb:Wind-deposition ;
+    skos:notation "RH" ;
+    skos:prefLabel "≥ 10% of the particles of medium sand or coarser are rounded or subangular and have a matt surface" .
+
+wrb:Persistance-of-surface-cracks a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Persistance of surface cracks" .
+
+wrb:Retarded-reaction-with-HCl a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Retarded reaction with HCl" .
+
+wrb:Spatial-arrangement-of-surface-cracks a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Spatial arrangement of surface cracks" .
+
+wrb:Susceptibility-for-cementation a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Susceptibility for cementation" .
+
+wrb:Water-repellence a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Water repellence" .
+
+wrb:Aggregate-formation-after-addditions-or-after-in-situ-alterations a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Aggregate formation after addditions or after in-situ alterations" .
+
+wrb:Aggregate-penetrability-for-root a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Aggregate penetrability for root" .
+
+wrb:Cracks-persistence a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Cracks persistence" .
+
+wrb:Grade-of-structural-units a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Grade of structural units" .
+
+wrb:Layers-with-permafrost a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Layers with permafrost" .
+
+wrb:Organic-matter-coatings-and-oxide-coatings-on-sand-andor-coarse-silt-grains a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Organic matter coatings and oxide coatings on sand and/or coarse silt grains" .
+
+wrb:Subdivisions-of-the-Oa-horizon a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Subdivisions of the Oa horizon" .
+
+wrb:Types-of-manner-of-failure-brittleness a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Types of manner of failure (brittleness)" .
+
+wrb:Weathering-stage-of-coarse-fragments a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Weathering stage of coarse fragments" .
+
+wrb:Abundance-of-particles-in-the-sand-and-coarse-silt-fraction-that-consist-of-volcanic-glasses a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Abundance of particles in the sand and coarse silt fraction that consist of volcanic glasses" .
+
+wrb:Abundance-of-pores a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Abundance of pores" .
+
+wrb:Activity-of-erosion a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Activity of erosion" .
+
+wrb:Artificial-additions-of-natural-material a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Artificial additions of natural material" .
+
+wrb:Continuity a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Continuity" .
+
+wrb:Dead-residues-of-specific-plants a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Dead residues of specific plants" .
+
+wrb:Degree-of-erosion a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Degree of erosion" .
+
+wrb:Natural-surface-unevenness a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Natural surface unevenness" .
+
+wrb:Patterned-ground a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Patterned ground" .
+
+wrb:Position-of-the-soil-profile-if-the-soil-surface-is-uneven a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Position of the soil profile, if the soil surface is uneven" .
+
+wrb:Potentiometric-pH-measurement a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Potentiometric pH measurement" .
+
+wrb:Presence-of-strata-within-a-layer a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Presence of strata within a layer" .
+
+wrb:Shape-of-layer-boundaries a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Shape of layer boundaries" .
+
+wrb:Size-of-lithogenic-variegates a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Size of lithogenic variegates" .
+
+wrb:Thixotropy-and-NaF-field-test a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Thixotropy and NaF field test" .
+
+wrb:Types-of-plasticity a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Types of plasticity" .
+
+wrb:Carbonate-contents a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Carbonate contents" .
+
+wrb:Cementation-class-of-oximorphic-features a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Cementation class of oximorphic features" .
+
+wrb:Distinctness-of-the-layers-lower-boundary a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Distinctness of the layer’s lower boundary" .
+
+wrb:Gypsum-contents a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Gypsum contents" .
+
+wrb:Moisture-class a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Moisture class" .
+
+wrb:Organic-hydromorphic-and-terrestrial-organotechnic-and-mineral-layers a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Organic (hydromorphic and terrestrial), organotechnic and mineral layers" .
+
+wrb:Packing-density a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Packing density" .
+
+wrb:Pore-size a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Pore size" .
+
+wrb:Size-of-durinodes-and-remnants-of-a-layer-that-has-been-cemented-by-secondary-silica a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Size of durinodes and remnants of a layer that has been cemented by secondary silica" .
+
+wrb:Size-of-oximorphic-features a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Size of oximorphic features" .
+
+wrb:Types-of-accumulation-of-organic-matter a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Types of accumulation of organic matter" .
+
+wrb:Types-of-non-matrix-pores a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Types of non-matrix pores" .
+
+wrb:Types-of-secondary-silica a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Types of secondary silica" .
+
+wrb:Wind-deposition a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Wind deposition" .
+
+wrb:Abundance-of-roots--2-mm a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Abundance of roots > 2 mm" .
+
+wrb:Aggregate-size a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Aggregate size" .
+
+wrb:Current-weather-conditions a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Current weather conditions" .
+
+wrb:Past-weather-conditions a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Past weather conditions" .
+
+wrb:Ranges-of-rH-values a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Ranges of rH values" .
+
+wrb:Surface-cracks a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Surface cracks" .
+
+wrb:Types-of-secondary-carbonates a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Types of secondary carbonates" .
+
+wrb:Coarse-surface-fragments a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Coarse surface fragments" .
+
+wrb:Remnants-of-broken-up-cemented-layers-cementing-agent a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Remnants of broken-up cemented layers: cementing agent" .
+
+wrb:Season-of-description a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Season of description" .
+
+wrb:Size-of-artefacts a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Size of artefacts" .
+
+wrb:Technical-surface-alterations a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Technical surface alterations" .
+
+wrb:Cementing-class a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Cementing class" .
+
+wrb:Cryogenic-alteration-feature a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Cryogenic alteration feature" .
+
+wrb:Distance-between-surface-cracks a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Distance between surface cracks" .
+
+wrb:Profile-Position a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Profile Position" .
+
+wrb:Substance-of-oximorphic-and-reductimorphic-features a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Substance of oximorphic and reductimorphic features" .
+
+wrb:Substances-of-ribbon-like-accumulations a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Substances of ribbon-like accumulations" .
+
+wrb:Water-saturation a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Water saturation" .
+
+wrb:Ecozones-according-to-Schultz a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Ecozones according to Schultz" .
+
+wrb:Rupture-resistence-class-dry a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Rupture resistence class dry" .
+
+wrb:Rupture-resistence-class-moist a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Rupture resistence class moist" .
+
+wrb:Slope-Shape a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Slope Shape" .
+
+wrb:Special-techniques-to-enhance-site-productivity a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Special techniques to enhance site productivity" .
+
+wrb:Cementing-agents a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Cementing agents" .
+
+wrb:In-situ-alterations a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "In-situ alterations" .
+
+wrb:Surface-unevenness-caused-by-erosion a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Surface unevenness caused by erosion" .
+
+wrb:Types-of-animal-activity a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Types of animal activity" .
+
+wrb:Human-made-surface-unevenness a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Human-made surface unevenness" .
+
+wrb:Sealing-agent-of-surface-crusts a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Sealing agent of surface crusts" .
+
+wrb:Cultivation-type a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Cultivation type" .
+
+wrb:Water-above-the-soil-surface a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Water above the soil surface" .
+
+wrb:Texture-classes a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Texture classes" .
+
+wrb:Vegetation-type a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Vegetation type" .
+
+wrb:Types-of-structure-formation a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Types of structure, formation" .
+
+wrb:Location-of-oximorphic-and-reductimorphic-features a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Location of oximorphic and reductimorphic features" .
+
+wrb:Size-and-shape-classes-of-coarse-fragments-and-of-remnants-of-broken-up-cemented-layers a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Size and shape classes of coarse fragments and of remnants of broken-up cemented layers" .
+
+wrb:Artefacts a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Artefacts" .
+
+wrb:Climate-according-to-Köppen-1936 a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Climate according to Köppen (1936)" .
+
+wrb:Types-of-parent-material a owl:Class,
+        skos:ConceptScheme ;
+    skos:prefLabel "Types of parent material" .
+
